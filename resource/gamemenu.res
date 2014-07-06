@@ -121,7 +121,7 @@
 	"ToggleConsoleButton"
 	{
 	    "label" "Toggle Console"
-	    "command"   "engine ToggleConsole"
+	    "command"   "engine ToggleConsoleButton"
 	}
 
 	"QuickServer1"
