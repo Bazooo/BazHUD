@@ -5,15 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"100"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"xpos"			"c-200"
+		"ypos"			"c100"
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"150"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -25,27 +21,25 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
-		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
-	}		
+	}	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
-		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -53,48 +47,120 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"-10000"
+		"ypos"			"-10000"
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"0"	
+	}
+	//DISABLED VV
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"150"
+		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"fillcolor"		"0 0 0 200"
+	}
+	//DISABLED ^^
+	"HealthStatusWord"
+	{
+		"ControlName" "CExLabel"
+		"fieldName"	"HealthStatusWord"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"140"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Condition:"
+		"textAlignment"	"south-west"
+		"font"			"Caviar12"
+		"fgcolor"		"255 255 255 75"
+	}
+	"HealthStatusDefault"
+	{
+		"ControlName" "CExLabel"
+		"fieldName"	"HealthStatusDefault"
+		"xpos"			"80"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"140"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"255"
+		"labelText"		"Normal."
+		"textAlignment"	"south-west"	
+		"font"			"Caviar12"
+		"fgcolor"		"255 255 255 75"
+	}
+	"HealthStatusBuffed"
+	{
+		"ControlName" "CExLabel"
+		"fieldName"	"HealthStatusBuffed"
+		"xpos"			"80"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"140"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"0"
+		"labelText"		"Excellent!"
+		"textAlignment"	"south-west"	
+		"font"			"Caviar12"
+		"fgcolor"		"46 204 113 125"
+	}
+	"HealthStatusCritical"
+	{
+		"ControlName" "CExLabel"
+		"fieldName"	"HealthStatusCritical"
+		"xpos"			"80"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"140"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"0"
+		"labelText"		"CRITICAL!"
+		"border"		"ButtonBorder"
+		"textAlignment"	"south-west"	
+		"font"			"Caviar12"
+		"fgcolor"		"231 76 60 200"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"150"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"US62"
+		"fgcolor"		"255 255 255 75"
 	}								
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -103,14 +169,13 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"0 0 0 255"
 	}		
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -126,7 +191,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -142,7 +206,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
