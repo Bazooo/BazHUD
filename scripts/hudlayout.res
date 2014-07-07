@@ -11,7 +11,7 @@
 		"ypos" "c-50"
 		"wide" "100"
 		"tall"	 "100"
-		"font" "Caviar60"
+		"font" "CrosshairFont"
 		"labelText" "O"
 		"zpos"	 "-4"
 		"textAlignment" "center"
@@ -203,14 +203,11 @@
 	
 	CHudAccountPanel
 	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"fieldName"			"CHudAccountPanel"
+		"xpos"					"c-25"
+		"ypos"					"c125"
+		"wide"					"50"
+		"tall"  					"40"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -496,7 +493,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"NewMediumFont"
+		"TextFont"		"NewFontSmall"
 		
 		"TeamBlue"	"41 128 185 255"
 		"TeamRed"		"231 76 60 255"

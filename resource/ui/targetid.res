@@ -103,7 +103,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"xpos"			"40"
 		"ypos"			"5"
 		"zpos"			"1"
@@ -123,7 +123,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Caviar9"
+		"font"			"NewFontTiny"
 		"xpos"			"40"
 		"ypos"			"12"
 		"zpos"			"1"
@@ -193,10 +193,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-5"
-		"wide"			"32"
+		"wide"			"50"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		
 		"MoveableIconBG"
 		{
@@ -206,9 +206,9 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"10"
-			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
+			"tall"			"30"
+			"visible"		"0"
+			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"

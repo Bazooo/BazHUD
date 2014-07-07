@@ -5,7 +5,7 @@ My custom hud
 
 To make the Quicklinks work and toggle console add this to your autoexec.cfg
 
-alias ToggleConsole "toggleconsole"
+alias ToggleConsoleButton "toggleconsole"
 alias QuickServer1  "connect [ServerIP]"
 alias QuickServer2  "connect [ServerIP]"
 alias QuickServer3  "connect [ServerIP]"

@@ -232,7 +232,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 
-	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.3
+	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.0
 	Animate 	HealthStatusBuffed					Alpha 		"0"		Linear 0.0 0.0
 	Animate 	HealthStatusDefaultDS				Alpha 		"255"			Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75" Linear 0.0 0.0
@@ -269,7 +269,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 
-	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.3
+	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.0
 	Animate 	HealthStatusDefault				Alpha 		"255"		Linear 0.0 0.0
 	Animate 	HealthStatusDefaultDS				Alpha 		"255"		Linear 0.0 0.0
 	Animate 	HealthStatusCritical				Alpha 		"0"			Linear 0.0 0.0

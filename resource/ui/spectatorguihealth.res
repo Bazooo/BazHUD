@@ -67,7 +67,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"textAlignment"	"center"
-		"font"			"US28"
+		"font"			"NewCounterFontMedium"
 	}
 	"HealthValueSpec"
 	{	
@@ -82,7 +82,7 @@
 		"enabled"			"1"
 		"labeltext"			"%Health%"
 		"textAlignment"	"center"
-		"font"				"US28"
+		"font"				"NewCounterFontMedium"
 		"fgcolor"			"255 255 255 75"
 	}
 	"PlayerStatusPlayerLevel"

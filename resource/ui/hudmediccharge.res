@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor"		"255 255 255 75"
-		"font"			"US62"
+		"font"			"NewCounterFontHuge"
 	}
 
 	"IndividualChargesLabel"
@@ -58,7 +58,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"255 255 255 75"
-		"font"			"US62"
+		"font"			"NewCounterFontHuge"
 	}
 	
 	"ChargeMeter"

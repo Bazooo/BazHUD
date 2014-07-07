@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"labelText"		"Condition:"
 		"textAlignment"	"south-west"
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"fgcolor"		"255 255 255 75"
 	}
 	"HealthStatusWordDS"
@@ -101,7 +101,7 @@
 		"enabled"		"1"
 		"labelText"		"Condition:"
 		"textAlignment"	"south-west"
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"fgcolor"		"0 0 0 75"
 	}
 	"HealthStatusDefault"
@@ -118,7 +118,7 @@
 		"alpha"			"255"
 		"labelText"		"Normal."
 		"textAlignment"	"south-west"	
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"fgcolor"		"255 255 255 75"
 	}
 	"HealthStatusDefaultDS"
@@ -135,7 +135,7 @@
 		"alpha"			"255"
 		"labelText"		"Normal."
 		"textAlignment"	"south-west"	
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"fgcolor"		"0 0 0 75"
 	}
 	"HealthStatusBuffed"
@@ -152,7 +152,7 @@
 		"alpha"			"0"
 		"labelText"		"Excellent!"
 		"textAlignment"	"south-west"	
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"fgcolor"		"46 204 113 125"
 	}
 	"HealthStatusCritical"
@@ -170,7 +170,7 @@
 		"labelText"		"CRITICAL!"
 		"border"		"ButtonBorder"
 		"textAlignment"	"south-west"	
-		"font"			"NewMediumFont"
+		"font"			"NewFontSmall"
 		"fgcolor"		"231 76 60 200"
 	}
 	"PlayerStatusHealthValue"
@@ -186,7 +186,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"US62"
+		"font"			"NewCounterFontHuge"
 		"fgcolor"		"255 255 255 75"
 	}	
 	"PlayerStatusHealthValueDS"
@@ -202,7 +202,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"US62"
+		"font"			"NewCounterFontHuge"
 		"fgcolor"		"0 0 0 75"
 	}							
 	"PlayerStatusBleedImage"

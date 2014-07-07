@@ -105,7 +105,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"US28"
+			"font"			"NewCounterFontMedium"
 			"fgcolor"		"255 255 255 200"
 		}
 		"NumPipesLabelDropshadow"
@@ -176,7 +176,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"US28"
+			"font"			"NewCounterFontMedium"
 			"fgcolor"		"255 255 255 100"
 		}
 		"NumPipesLabelDropshadow"

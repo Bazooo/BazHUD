@@ -2395,6 +2395,16 @@ Scheme
 			}
 		}
 
+		CrosshairFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+
 		NewMenuFontSmall
 		{
 			"1"
@@ -2415,12 +2425,73 @@ Scheme
 			}
 		}
 
-		NewMediumFont
+
+		NewFontTiny
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		}
+
+		NewFontSmall
 		{
 			"1"
 			{
 				"name"		"Caviar Dreams"
 				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+
+		NewFontMedium
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
+		NewCounterFontSmall
+		{
+			"1"
+			{
+				"name"		"U.S. 101"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+
+		NewCounterFontMedium
+		{
+			"1"
+			{
+				"name"		"U.S. 101"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+
+		NewCounterFontBig
+		{
+			"1"
+			{
+				"name"		"U.S. 101"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+
+		NewCounterFontHuge
+		{
+			"1"
+			{
+				"name"		"U.S. 101"
+				"tall"		"62"
 				"antialias" "1"
 			}
 		}
@@ -2431,147 +2502,6 @@ Scheme
 			{
 				"name"		"Caviar Dreams"
 				"tall"		"20"
-				"antialias" "1"
-			}
-		}
-
-		Caviar9
-		{
-			"1"
-			{
-				"name"		"Caviar Dreams"
-				"tall"		"9"
-				"antialias" "1"
-			}
-		}
-
-
-		Caviar12
-		{
-			"1"
-			{
-				"name"		"Caviar Dreams"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-
-		Caviar18
-		{
-			"1"
-			{
-				"name"		"Caviar Dreams"
-				"tall"		"18"
-				"antialias" "1"
-			}
-		}
-
-		Caviar24
-		{
-			"1"
-			{
-				"name"		"Caviar Dreams"
-				"tall"		"24"
-				"antialias" "1"
-			}
-		}
-
-		Caviar30
-		{
-			"1"
-			{
-				"name"		"Caviar Dreams"
-				"tall"		"30"
-				"antialias" "1"
-			}
-		}
-
-		Caviar60
-		{
-			"1"
-			{
-				"name"		"Caviar Dreams"
-				"tall"		"60"
-				"antialias" "1"
-			}
-		}
-
-		US28
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"28"
-				"antialias" "1"
-			}
-		}
-
-		US32
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"32"
-				"antialias" "1"
-			}
-		}
-
-		US42
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"42"
-				"antialias" "1"
-			}
-		}
-
-		US46
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"46"
-				"antialias" "1"
-			}
-		}
-
-		US52
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"52"
-				"antialias" "1"
-			}
-		}
-
-		US56
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"56"
-				"antialias" "1"
-			}
-		}
-
-		US62
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"62"
-				"antialias" "1"
-			}
-		}
-
-		US66
-		{
-			"1"
-			{
-				"name"		"U.S. 101"
-				"tall"		"66"
 				"antialias" "1"
 			}
 		}
