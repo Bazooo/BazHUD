@@ -316,11 +316,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -1094,11 +1094,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1164,11 +1164,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1300,11 +1300,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1370,11 +1370,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1453,11 +1453,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1709,11 +1709,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 0"
@@ -1779,11 +1779,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1849,11 +1849,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1919,11 +1919,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1989,11 +1989,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2059,11 +2059,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "231 76 60 225"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2128,11 +2128,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 175"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 175"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2197,11 +2197,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 175"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 175"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2267,11 +2267,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 175"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 175"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2590,11 +2590,11 @@
 		"border_armed"	"NoBorder"
 		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "255 255 255 100"
+		"defaultFgColor_override" "255 255 255 200"
 		"defaultBgColor_override" "0 0 0 175"
 		"armedFgColor_override" "0 0 0 255"
 		"armedBgColor_override" "255 255 255 100"
-		"depressedFgColor_override" "255 255 255 100"
+		"depressedFgColor_override" "255 255 255 200"
 		"depressedBgColor_override" "0 0 0 175"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2650,11 +2650,11 @@
 		"border_armed"	"NoBorder"
 		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "255 255 255 100"
+		"defaultFgColor_override" "255 255 255 200"
 		"defaultBgColor_override" "0 0 0 175"
 		"armedFgColor_override" "0 0 0 255"
 		"armedBgColor_override" "255 255 255 100"
-		"depressedFgColor_override" "255 255 255 100"
+		"depressedFgColor_override" "255 255 255 200"
 		"depressedBgColor_override" "0 0 0 175"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2710,11 +2710,11 @@
 		"border_armed"	"NoBorder"
 		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "255 255 255 100"
+		"defaultFgColor_override" "255 255 255 200"
 		"defaultBgColor_override" "0 0 0 225"
 		"armedFgColor_override" "231 76 60 225"
 		"armedBgColor_override" "255 255 255 100"
-		"depressedFgColor_override" "255 255 255 100"
+		"depressedFgColor_override" "255 255 255 200"
 		"depressedBgColor_override" "0 0 0 225"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2764,11 +2764,11 @@
 		"border_armed"	"NoBorder"
 		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "255 255 255 100"
+		"defaultFgColor_override" "255 255 255 200"
 		"defaultBgColor_override" "0 0 0 225"
 		"armedFgColor_override" "231 76 60 255"
 		"armedBgColor_override" "255 255 255 100"
-		"depressedFgColor_override" "255 255 255 100"
+		"depressedFgColor_override" "255 255 255 200"
 		"depressedBgColor_override" "0 0 0 225"
 
 		"navUp"			"QuitButton"
@@ -3651,11 +3651,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 175"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 175"
 		}
 		
@@ -3690,11 +3690,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3728,11 +3728,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3766,11 +3766,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3804,11 +3804,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3842,11 +3842,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3880,11 +3880,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3918,11 +3918,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3956,11 +3956,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
@@ -3994,11 +3994,11 @@
 			"border_armed"	"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "255 255 255 100"
+			"defaultFgColor_override" "255 255 255 200"
 			"defaultBgColor_override" "0 0 0 225"
 			"armedFgColor_override" "0 0 0 255"
 			"armedBgColor_override" "255 255 255 100"
-			"depressedFgColor_override" "255 255 255 100"
+			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
