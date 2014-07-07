@@ -2395,6 +2395,46 @@ Scheme
 			}
 		}
 
+		NewMenuFontSmall
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+
+		NewMenuFontDefault
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
+		NewMediumFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+
+		NewTimeMediumFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
 		Caviar9
 		{
 			"1"

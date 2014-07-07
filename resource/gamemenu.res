@@ -120,7 +120,7 @@
 
 	"ToggleConsoleButton"
 	{
-	    "label" "Toggle Console"
+	    "label" "Console"
 	    "command"   "engine ToggleConsoleButton"
 	}
 

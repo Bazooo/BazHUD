@@ -212,6 +212,7 @@ event HudHealthBonusPulse
 	Animate 	PlayerStatusHealthValue			fgcolor 		"52 152 219 150" Linear 0.8 0.4
 	Animate 	HealthStatusBuffed					Alpha 		"255"		Linear 0.0 0.0
 	Animate 	HealthStatusDefault				Alpha 		"0"			Linear 0.0 0.0
+	Animate 	HealthStatusDefaultDS				Alpha 		"0"			Linear 0.0 0.0
 	Animate 	HealthStatusCritical				Alpha 		"0"			Linear 0.0 0.0
 
 	Animate 	HealthValueSpec					fgcolor 		"142 68 173 175" Spline 0.0 0.6
@@ -233,7 +234,7 @@ event HudHealthBonusPulseStop
 
 	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.3
 	Animate 	HealthStatusBuffed					Alpha 		"0"		Linear 0.0 0.0
-	Animate 	HealthStatusDefault				Alpha 		"255"			Linear 0.0 0.0
+	Animate 	HealthStatusDefaultDS				Alpha 		"255"			Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75" Linear 0.0 0.0
 }
 
@@ -249,6 +250,7 @@ event HudHealthDyingPulse
 	Animate 	PlayerStatusHealthValue			fgcolor 		"150 40 27 200"	Linear 0.3 1.0
 	Animate 	HealthStatusBuffed					Alpha 		"0"			Linear 0.0 0.0
 	Animate 	HealthStatusDefault				Alpha 		"0"			Linear 0.0 0.0
+	Animate 	HealthStatusDefaultDS				Alpha 		"0"			Linear 0.0 0.0
 	Animate 	HealthStatusCritical				Alpha 		"255"		Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"231 76 60 200" Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"231 76 60 75" Linear 0.3 1.0
@@ -269,6 +271,7 @@ event HudHealthDyingPulseStop
 
 	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.3
 	Animate 	HealthStatusDefault				Alpha 		"255"		Linear 0.0 0.0
+	Animate 	HealthStatusDefaultDS				Alpha 		"255"		Linear 0.0 0.0
 	Animate 	HealthStatusCritical				Alpha 		"0"			Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75" Linear 0.0 0.0
 }

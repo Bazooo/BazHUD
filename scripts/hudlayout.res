@@ -496,7 +496,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Caviar12"
+		"TextFont"		"NewMediumFont"
 		
 		"TeamBlue"	"41 128 185 255"
 		"TeamRed"		"231 76 60 255"

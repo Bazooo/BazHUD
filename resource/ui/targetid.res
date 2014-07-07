@@ -103,7 +103,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Caviar12"
+		"font"			"NewMediumFont"
 		"xpos"			"40"
 		"ypos"			"5"
 		"zpos"			"1"
