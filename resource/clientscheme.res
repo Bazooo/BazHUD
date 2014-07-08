@@ -433,13 +433,19 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Caviar Dreams"
+				"tall"		"13"
+				"antialias" "1"
+			}
+			"2"
+			{
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
-			"2"
+			"3"
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
@@ -448,7 +454,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
-			"3"
+			"4"
 			{
 				"name"		"Verdana"
 				"tall"		"14"
@@ -457,7 +463,7 @@ Scheme
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
-			"4"
+			"5"
 			{
 				"name"		"Verdana"
 				"tall"		"20"
@@ -466,7 +472,7 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"6"
 			{
 				"name"		"Verdana"
 				"tall"		"24"
@@ -475,14 +481,14 @@ Scheme
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
-			"6"
+			"7"
 			{
 				"name"		"Verdana"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
-			"7"
+			"8"
 			{
 				"name"		"Arial"
 				"tall"		"12"
@@ -2400,7 +2406,7 @@ Scheme
 			"1"
 			{
 				"name"		"Caviar Dreams"
-				"tall"		"40"
+				"tall"		"45"
 				"antialias" "1"
 			}
 		}
@@ -2452,6 +2458,26 @@ Scheme
 			{
 				"name"		"Caviar Dreams"
 				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
+		NewFontBig
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+
+		NewFontHuge
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"40"
 				"antialias" "1"
 			}
 		}

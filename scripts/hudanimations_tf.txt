@@ -763,6 +763,12 @@ event DamagedPlayer
 {
 	Animate DamagedPlayerCircle 		fgcolor 		"255 255 255 50" Linear 0.0 0.0
 	Animate DamagedPlayerCircle 		fgcolor 		"255 255 255 10" Linear 0.0 0.3
+
+	
+	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.0	
+	Animate	DamageAccountValueDS		Alpha	"255"	Linear 0.0 0.0
+	Animate	DamageAccountValue			Alpha	"0"		Linear 1.5 0.1	
+	Animate	DamageAccountValueDS		Alpha	"0"		Linear 1.5 0.1
 }
 
 //===========================================

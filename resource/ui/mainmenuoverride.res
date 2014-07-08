@@ -228,14 +228,28 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"1"
+		"border"		"NoBorder"
+
+		"TipSubBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"TipSubBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 225"
+		}
 		
 		"TipSubLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"TipSubLabel"
-			"font"			"HudFontSmall"
+			"fieldName"	"TipSubLabel"
+			"font"			"NewMenuFontSmall"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -255,7 +269,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NewMenuFontDefault"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -267,7 +281,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"255 255 255 100"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -1398,13 +1412,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-59"
-		"ypos"			"245"
+		"xpos"			"10000"
+		"ypos"			"10000"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../vgui/new"
 		"scaleImage"	"1"
 	}
@@ -3965,10 +3979,10 @@
 		}
 	}
 
-	"QuickServer9"	
+	"ChangeScoreBoard"	
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"QuickServer9"
+		"fieldName"	"ChangeScoreBoard"
 		"xpos"			"c105"
 		"ypos"			"88"
 		"wide"		"30"

@@ -121,7 +121,7 @@
 	"ToggleConsoleButton"
 	{
 	    "label" "Console"
-	    "command"   "engine ToggleConsoleButton"
+	    "command"   "engine toggleconsole"
 	}
 
 	"QuickServer1"
@@ -180,11 +180,11 @@
 	    "tooltip"	"Server Eight"
 	}
 	
-	"QuickServer9"
+	"ChangeScoreBoard"
 	{
-	    "label" "9"
-	    "command"   "engine QuickServer9"
-	    "tooltip"	"Server Nine"
+	    "label" "X"
+	    "command"   "engine toggle cl_hud_minmode"
+	    "tooltip"	"Change scoreboard"
 	}
 	
 }

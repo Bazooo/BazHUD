@@ -39,6 +39,28 @@
 		"font"			"NewCounterFontHuge"
 	}
 
+	"ChargeLabelDS"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelDS"
+		"xpos"			"c48"
+		"ypos"			"c102"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"80"
+		"autoResize"	"1"
+		"pinCorner"	"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor"		"0 0 0 75"
+		"font"			"NewCounterFontHuge"
+	}
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -99,8 +121,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"alpha"			"75"
 		"fgcolor_override" "26 188 156 0"
-		"bgcolor_override" "26 188 156 50"
+		"bgcolor_override" "255 255 255 100"
 	}
 
 	"ChargeMeter2"
@@ -120,8 +143,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"alpha"			"75"
 		"fgcolor_override" "46 204 113 255"
-		"bgcolor_override" "46 204 113 50"
+		"bgcolor_override" "255 255 255 75"
 	}
 
 	"ChargeMeter3"
@@ -141,8 +165,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"alpha"			"75"
 		"fgcolor_override" "52 152 219 255"
-		"bgcolor_override" "52 152 219 50"
+		"bgcolor_override" "255 255 255 100"
 	}
 
 	"ChargeMeter4"
@@ -162,8 +187,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"alpha"			"75"
 		"fgcolor_override" "155 89 182 255"
-		"bgcolor_override" "155 89 182 50"
+		"bgcolor_override" "255 255 255 75"
 	}
 	
 	"HealthClusterIcon"
@@ -186,10 +212,10 @@
 		"fieldName"		"ResistIcon"
 		"xpos"			"c50"
 		"ypos"			"150"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 	}
