@@ -267,55 +267,7 @@
 			"visible"		"0"
 		}
 	}							
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabel"
-		"font"			"NewFontTiny"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"			"11"
-		"xpos_hidef"	"31"
-		"ypos"			"60"
-		"wide"			"350"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 75"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-		}
-	}
-	"ServerTimeLeft"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeft"
-		"font"			"NewFontTiny"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"		"east"
-		"xpos"			"285"
-		"xpos_hidef"	"31"
-		"ypos"			"60"
-		"ypos_lodef"	"62"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 75"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-		}
-	}
+	
 ///////////////////////////////////////////
 ////////////// LISTS ////////////////////
 ///////////////////////////////////////////					
@@ -446,18 +398,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"10"
-		"xpos_hidef"	"30"
-		"ypos"			"372"	[$WIN32]
-		"ypos"			"297"	[$X360]
+		"ypos"			"372"
 		"zpos"			"2"
 		"wide"			"580"
-		"wide_lodef"	"539"
-		"wide_hidef"	"559"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
@@ -500,9 +448,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
@@ -516,16 +463,57 @@
 		"font"			"NewFontMedium"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
-		"xpos"			"415"
-		"ypos"			"375"
+		"xpos"			"r205"
+		"ypos"			"r75"
 		"zpos"			"3"
-		"wide"			"165"
+		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"fgcolor"		"255 255 255 75"
+	}
+	"ServerLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabel"
+		"font"			"NewFontSmall"
+		"labelText"		"%server%"
+		"textAlignment"		"east"
+		"xpos"			"r205"
+		"ypos"			"r50"
+		"wide"			"200"
+		"tall"			"20"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"255 255 255 75"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+		}
+	}
+	"ServerTimeLeft"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeft"
+		"font"			"NewFontSmall"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"east"
+		"xpos"			"r205"
+		"ypos"			"r30"
+		"wide"			"200"
+		"tall"			"20"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"255 255 255 75"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+		}
 	}						
 	"HorizontalLine"
 	{
@@ -542,8 +530,8 @@
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
@@ -792,12 +780,11 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"395"
+		"ypos"			"r50"
 		"zpos"			"3"
-		"wide"			"600"
-		"tall"			"448"
+		"wide"			"f0"
+		"tall"			"50"
 		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -837,8 +824,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}						
 		"AssistsLabel"
 		{
@@ -878,36 +865,52 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"ScoreboardVerySmall"
+			"font"			"NewFontHuge"
 			"labelText"		"%kills%"
-			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"0"	[$WIN32]
+			"textAlignment"		"east"
+			"xpos"			"c-65"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
+			"wide"			"50"
+			"tall"			"50"
 			"autoResize"	"0"
-			"pinCorner"		"0"
+			"fgcolor_override"	"52 73 94 75"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
+		"Slash"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Slash"
+			"font"			"NewFontHuge"
+			"labelText"		"/"
+			"textAlignment"		"center"
+			"xpos"			"c-25"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"50"
+			"tall"			"50"
+			"autoResize"	"0"
+			"fgcolor_override"	"52 73 94 75"
+			"visible"		"1"
+			"enabled"		"1"
+		}					
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"ScoreboardVerySmall"
+			"font"			"NewFontHuge"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"c10"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
+			"wide"			"50"
+			"tall"			"50"
 			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}	
+		}
 		"GameType"
 		{
 			"ControlName"	"CExLabel"

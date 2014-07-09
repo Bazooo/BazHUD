@@ -1,23 +1,6 @@
 "Resource/HudLayout.res"
 {	
 
-	DamagedPlayerCircle
-	{
-		"controlName" "CExLabel"
-		"fieldName" "DamagedPlayerCircle"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "c-50"
-		"ypos" "c-50"
-		"wide" "100"
-		"tall"	 "100"
-		"font" "CrosshairFont"
-		"labelText" "O"
-		"zpos"	 "-4"
-		"textAlignment" "center"
-		"fgcolor" "255 255 255 10"
-	}
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -27,6 +10,22 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+		"DamagedPlayerCircle"
+			{
+				"controlName" "CExLabel"
+				"fieldName" "DamagedPlayerCircle"
+				"visible" "1"
+				"enabled" "1"
+				"xpos" "c-50"
+				"ypos" "c-50"
+				"wide" "100"
+				"tall"	 "100"
+				"font" "CrosshairFont"
+				"labelText" "O"
+				"zpos"	 "-4"
+				"textAlignment" "center"
+				"fgcolor" "255 255 255 10"
+			}
 	}
 
 	HudWeaponAmmo
