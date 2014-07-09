@@ -105,7 +105,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"NewFontSmall"
 		"xpos"			"40"
-		"ypos"			"5"
+		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
