@@ -35,7 +35,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"255 255 255 75"
+		"fgcolor"		"mainWhite"
 		"font"			"NewCounterFontHuge"
 	}
 
@@ -57,7 +57,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"0 0 0 75"
+		"fgcolor"		"mainBlack"
 		"font"			"NewCounterFontHuge"
 	}
 
@@ -79,7 +79,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 255 255 75"
+		"fgcolor"		"mainWhite"
 		"font"			"NewCounterFontHuge"
 	}
 	
@@ -123,7 +123,7 @@
 		"brighttext"	"0"
 		"alpha"			"75"
 		"fgcolor_override" "26 188 156 0"
-		"bgcolor_override" "255 255 255 100"
+		"bgcolor_override" "mainWhiter"
 	}
 
 	"ChargeMeter2"
@@ -145,7 +145,7 @@
 		"brighttext"	"0"
 		"alpha"			"75"
 		"fgcolor_override" "46 204 113 255"
-		"bgcolor_override" "255 255 255 75"
+		"bgcolor_override" "mainWhite"
 	}
 
 	"ChargeMeter3"
@@ -167,7 +167,7 @@
 		"brighttext"	"0"
 		"alpha"			"75"
 		"fgcolor_override" "52 152 219 255"
-		"bgcolor_override" "255 255 255 100"
+		"bgcolor_override" "mainWhiter"
 	}
 
 	"ChargeMeter4"
@@ -189,7 +189,7 @@
 		"brighttext"	"0"
 		"alpha"			"75"
 		"fgcolor_override" "155 89 182 255"
-		"bgcolor_override" "255 255 255 75"
+		"bgcolor_override" "mainWhite"
 	}
 	
 	"HealthClusterIcon"

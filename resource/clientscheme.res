@@ -170,6 +170,10 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+
+		"mainWhite"	"255 255 255 75"
+		"mainWhiter"	"255 255 255 100"
+		"mainBlack"	"0 0 0 75"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
