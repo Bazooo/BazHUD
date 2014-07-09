@@ -370,7 +370,6 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"xpos_hidef"	"135"
 		"ypos"			"357"
 		"zpos"			"4"
 		"wide"			"424"
@@ -378,6 +377,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -401,6 +401,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -1667,7 +1668,6 @@
 			"fieldName"		"GamerCardIcon"
 			"font"			"GameUIButtons"
 			"xpos"			"150"
-			"xpos_hidef"	"145"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"300"
