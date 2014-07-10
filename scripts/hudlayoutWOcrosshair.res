@@ -14,8 +14,8 @@
 			{
 				"controlName" "CExLabel"
 				"fieldName" "DamagedPlayerCircle"
-				"visible" "1"
-				"enabled" "1"
+				"visible" "0"
+				"enabled" "0"
 				"xpos" "c-50"
 				"ypos" "c-50"
 				"wide" "100"
