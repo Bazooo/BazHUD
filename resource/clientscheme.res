@@ -1329,9 +1329,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"U.S. 101"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1340,11 +1339,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"U.S. 101"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
-				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -1352,10 +1349,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"U.S. 101"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -1363,9 +1359,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"U.S. 101"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1377,7 +1372,6 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"16"
-				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -4450,6 +4444,21 @@ Scheme
 			"name" "Caviar Dreams"
 		}
 		"8"
+		{
+			"font" "resource/fonts/caviarBold.ttf"
+			"name" "Caviar Dreams Bold"
+		}
+		"9"
+		{
+			"font" "resource/fonts/caviarItalic.ttf"
+			"name" "Caviar Dreams Italic"
+		}
+		"10"
+		{
+			"font" "resource/fonts/caviarBoldItalic.ttf"
+			"name" "Caviar Dreams Bold Italic"
+		}
+		"11"
 		{
 			"font" "resource/fonts/us101.ttf"
 			"name" "U.S. 101"
