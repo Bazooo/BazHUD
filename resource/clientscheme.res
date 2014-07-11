@@ -1330,7 +1330,7 @@ Scheme
 			"1"
 			{
 				"name"		"U.S. 101"
-				"tall"		"24"
+				"tall"		"26"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1340,7 +1340,7 @@ Scheme
 			"1"
 			{
 				"name"		"U.S. 101"
-				"tall"		"24"
+				"tall"		"26"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1350,7 +1350,7 @@ Scheme
 			"1"
 			{
 				"name"		"U.S. 101"
-				"tall"		"24"
+				"tall"		"26"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1360,7 +1360,7 @@ Scheme
 			"1"
 			{
 				"name"		"U.S. 101"
-				"tall"		"24"
+				"tall"		"26"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
