@@ -37,6 +37,7 @@
 		"fieldName"		"Icon"
 		"xpos"			"7"
 		"ypos"			"5"
+		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -118,6 +119,7 @@
 		"fieldName"		"BuiltPanel"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"40"
 		"visible"		"0"
@@ -126,16 +128,16 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"22"
-			"ypos"			"20"
+			"xpos"			"2"
+			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"0 0 0 255"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Icon_Upgrade_1"
@@ -299,7 +301,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor_override"	"255 255 255 125"
+				"fgcolor_override"	"255 255 255 25"
 				"bgcolor_override"	"255 255 255 25"
 			}
 		}
@@ -310,6 +312,7 @@
 			"fieldName"		"RunningPanel"
 			"xpos"			"0"
 			"ypos"			"0"
+			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"40"
 			"visible"		"0"
@@ -326,7 +329,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
-				"fillcolor"		"255 255 255 125"
+				"fillcolor"		"255 255 255 30"
 			}
 			
 			"AmmoIcon"	

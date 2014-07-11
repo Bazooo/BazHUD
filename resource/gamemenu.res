@@ -190,7 +190,7 @@
 	"hudCredits"
 	{
 	    "label" "O"
-	    "command" "engine showconsole;echo;echo ----------- SPECIAL THANKS TO -----------;echo; echo - Miglifgantor for being the best tester 5 eva
+	    "command" "engine showconsole;echo;echo ----------- SPECIAL THANKS TO -----------;echo; echo - Miglifgantor for being the best tester 5 eva; echo; echo ----------------------------------
 "
 	    "tooltip"	"Special Thanks!"
 
