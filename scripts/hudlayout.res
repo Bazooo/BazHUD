@@ -322,9 +322,9 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"5"
-		"ypos"		"5"
-		"wide"		"500"
+		"xpos"		"-12"
+		"ypos"		"c-75"
+		"wide"		"300"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
