@@ -4016,4 +4016,40 @@
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
+
+	"hudCredits"	
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"hudCredits"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"		"30"
+		"tall"		"30"
+		"visible"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"	"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"		"30"
+			"tall"		"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"		"NewMenuFontSmall"
+			"textAlignment"	"center"
+			
+			"border_default"	"NoBorder"
+			"border_armed"	"NoBorder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "255 255 255 200"
+			"defaultBgColor_override" "0 0 0 225"
+			"armedFgColor_override" "46 204 113 255"
+			"armedBgColor_override" "155 89 182 255"
+			"depressedFgColor_override" "255 255 255 200"
+			"depressedBgColor_override" "0 0 0 225"
+		}
+	}
 }
