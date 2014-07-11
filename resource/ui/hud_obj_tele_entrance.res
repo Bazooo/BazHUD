@@ -182,8 +182,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"3"
+			"xpos"			"32"
+			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"30"
@@ -360,11 +360,11 @@
 				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"NewFontSmall"
-					"xpos"			"34"
+					"font"			"NewFontTiny"
+					"xpos"			"4"
 					"ypos"			"0"
-					"wide"			"200"
-					"tall"			"30"
+					"wide"			"26"
+					"tall"			"10"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -373,29 +373,9 @@
 					"textAlignment"	"west"
 					"dulltext"		"0"
 					"brighttext"	"0"
-					"fgcolor"	"mainWhite"
+					"fgcolor"	"0 0 0 255"
 				}
-
-				"TimesUsedLabelDS"
-				{	
-					"ControlName"	"CExLabel"
-					"fieldName"		"TimesUsedLabelDS"
-					"font"			"NewFontSmall"
-					"xpos"			"35"
-					"ypos"			"1"
-					"wide"			"200"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"labelText"		"%timesused%"
-					"textAlignment"	"west"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"fgcolor"	"mainBlack"
-				}
-			}	
+			}
 			
 			"UpgradeIcon"
 			{

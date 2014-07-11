@@ -106,16 +106,16 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"22"
-			"ypos"			"20"
-			"zpos"			"5"
-			"wide"			"10"
-			"tall"			"10"
+			"xpos"			"32"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"0 0 0 255"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Icon_Upgrade_1"

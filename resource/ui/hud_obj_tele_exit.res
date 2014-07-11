@@ -182,8 +182,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"3"
+			"xpos"			"32"
+			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"30"
