@@ -101,6 +101,7 @@
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"0"
 		"ypos"			"32"
+		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"20"
 		"visible"		"0"
