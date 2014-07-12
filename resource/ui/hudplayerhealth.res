@@ -187,7 +187,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"NewCounterFontHuge"
-		"fgcolor"		"mainWhite"
+		"fgcolor_override"		"mainWhite"
 	}	
 	"PlayerStatusHealthValueDS"
 	{

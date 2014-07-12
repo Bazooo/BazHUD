@@ -189,19 +189,18 @@
 
 	"hudCredits"
 	{
-	   "label" "O"
+	   "label" "^-^"
 	    "command" 
 	    "
-	    			engine showconsole;
-	    			echo;
-	    			echo -----------------------------------------;
-	    			echo ----------- SPECIAL THANKS TO -----------;
-	    			echo -----------------------------------------;
+	    			engine showconsole;clear;
+	    			echo ---------------------------------------------------------------;
+	    			echo ---------------------- SPECIAL THANKS TO ----------------------;
+	    			echo ---------------------------------------------------------------;
 	    			echo;
 	    			echo - Miglifgantor for being the best tester 5 eva;
 	    			echo - Computer for not caring enough :P;
 	    			echo;
-	    			echo -----------------------------------------;
+	    			echo ---------------------------------------------------------------;
 	     "
 	    "tooltip"	"Special Thanks!"
 	}
