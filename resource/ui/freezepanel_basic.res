@@ -140,10 +140,10 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"13"
+			"xpos"			"10"
 			"ypos"			"160"
 			"zpos"			"1"
-			"wide"			"30"
+			"wide"			"36"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"	

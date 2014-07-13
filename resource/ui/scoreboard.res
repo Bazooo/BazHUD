@@ -741,7 +741,7 @@
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"r75"
-		"zpos"			"3"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"75"
 		"autoResize"	"0"
@@ -751,6 +751,18 @@
 		if_mvm
 		{
 			"visible"		"1"
+		}
+
+		"statsBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"statsBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"f0"
+			"tall"			"75"
+			"fillcolor"		"0 0 0 200"
 		}
 
 		"KillsLabel"
