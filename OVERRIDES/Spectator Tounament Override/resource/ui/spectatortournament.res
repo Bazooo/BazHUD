@@ -25,7 +25,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"200"
+			"wide"			"210"
 			"tall"			"23"
 			"zpos"			"1"
 			
@@ -166,7 +166,7 @@
 				"xpos"				"165"
 				"ypos"				"-2"
 				"zpos"				"3"
-				"wide"				"30"
+				"wide"				"40"
 				"tall"				"30"
 				"visible"			"1"
 				"enabled"			"1"	

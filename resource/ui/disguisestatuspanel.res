@@ -73,7 +73,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"255 255 255 100"
+		"fgcolor_override"	"mainWhiter"
 	}
 	
 	"WeaponNameLabel"
@@ -94,7 +94,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"255 255 255 100"
+		"fgcolor_override"	"mainWhiter"
 	}
 	
 	"SpectatorGUIHealth"
@@ -125,7 +125,7 @@
 		"tall"				"2"
 		"visible"			"1"
 		"enabled"			"1"	
-		"fillcolor"			"255 255 255 75"
+		"fillcolor"			"mainWhite"
 	}
 
 	"DisguiseBorder2"
@@ -138,7 +138,7 @@
 		"tall"				"2"
 		"visible"			"1"
 		"enabled"			"1"	
-		"fillcolor"			"255 255 255 75"
+		"fillcolor"			"mainWhite"
 	}
 	
 }

@@ -2531,6 +2531,16 @@ Scheme
 			}
 		}
 
+		BazIcons
+		{
+			"1"
+			{
+				"name"		"BazHUD_icons"
+				"tall"		"26"
+				"antialias"	"1"
+			}
+		}
+
 	}
 
 	// BazHUD fonts
@@ -4463,6 +4473,11 @@ Scheme
 		{
 			"font" "resource/fonts/us101.ttf"
 			"name" "U.S. 101"
+		}
+		"12"
+		{
+			"font" "resource/fonts/icons.ttf"
+			"name" "BazHUD_icons"
 		}
 	}
 }

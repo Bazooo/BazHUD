@@ -57,6 +57,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"alpha"					"75"
+		"bgcolor_override"		"52 152 219 100"
 	}				
 		
 	"PipesPresentPanel"

@@ -1,13 +1,17 @@
-"Resource/UI/HudItemEffectMeter_Pomson.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"
-		"ypos"			"c100"
-		"wide"			"150"
+		"xpos"			"r216"	[$WIN32]
+		"ypos"			"r57"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos_minmode"	"r68"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r124"	[$X360]
+		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -36,21 +40,42 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"41"
-		"ypos"					"25"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"30"
+		"tall"					"30"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"0"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"4"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"BazIcons"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	"HeatmakerIcon"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"HeatmakerIcon"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"30"
+		"tall"					"30"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"4"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"BazIcons"
+		"fgcolor"			"0 0 0 255"
 	}
 
 	"ItemEffectMeter"
@@ -60,9 +85,9 @@
 		"font"					"Default"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"5"				
+		"zpos"					"1"
+		"wide"					"30"
+		"tall"					"30"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -70,7 +95,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"alpha"				"150"
-		"bgcolor_override"		"52 152 219 100"
-	}					
+		"bgcolor_override"		"255 255 255 25"
+		"alpha"				"75"
+	}				
 }

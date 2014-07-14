@@ -37,7 +37,7 @@
 			"tall"			"80"
 			"zpos"			"1"
 
-			"wide_minmode"	"200"
+			"wide_minmode"	"210"
 			"tall_minmode"			"23"
 			
 			"color_ready"	"0 255 0 220"
@@ -207,6 +207,7 @@
 
 				"xpos_minmode"	"165"
 				"ypos_minmode"	"-2"
+				"wide_minmode"		"40"
 				"tall_minmode"		"30"
 			}
 			
