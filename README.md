@@ -28,5 +28,6 @@ Troubleshoot
 ============
 
 Q. I can not see the icons for the charge meters.
+
 A. Drag the tf_english.txt file in your ...\common\Team Fortress 2\tf\resource folder and override the original.
     NOT in the custom folder
