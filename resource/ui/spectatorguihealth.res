@@ -83,7 +83,7 @@
 		"labeltext"			"%Health%"
 		"textAlignment"	"center"
 		"font"				"NewCounterFontMedium"
-		"fgcolor"			"255 255 255 75"
+		"fgcolor"			"mainWhite"
 	}
 	"PlayerStatusPlayerLevel"
 	{

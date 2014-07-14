@@ -11,7 +11,7 @@
 		"tall"				"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"255 255 255 75"
+		"fillcolor"			"borderColor"
 	}
 	
 	"TargetBorderBottom"
@@ -25,7 +25,7 @@
 		"tall"				"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"255 255 255 75"
+		"fillcolor"			"borderColor"
 	}
 
 	"TargetIDBG"

@@ -1013,10 +1013,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"r100"
-		"wide"			"f0"
-		"tall"			"100"
+		"xpos"			"c-50"
+		"ypos"			"c100"
+		"wide"			"100"
+		"tall"			"80"
 	}	
 
 	HudTeamGoal

@@ -281,7 +281,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 100"
+			"fgcolor_override"	"mainWhiter"
 			"auto_wide_tocontents" "1"
 		}
 	}	

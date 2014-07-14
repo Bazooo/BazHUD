@@ -110,7 +110,7 @@
 		"wide"			"300"
 		"tall"			"30"
 		"autoResize"	"0"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
@@ -136,7 +136,7 @@
 		"wide"			"100"
 		"tall"			"55"
 		"autoResize"	"0"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -181,7 +181,7 @@
 		"ypos"			"c-155"
 		"wide"			"100"
 		"tall"			"29"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
@@ -202,7 +202,7 @@
 		"ypos"			"c-165"
 		"wide"			"140"
 		"tall"			"34"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
@@ -227,7 +227,7 @@
 		"wide"			"100"
 		"tall"			"55"
 		"autoResize"	"0"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -272,7 +272,7 @@
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"	"0"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
@@ -1572,7 +1572,7 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		
 		if_mvm
 		{
@@ -1593,7 +1593,7 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 75"
+		"fgcolor_override"	"scoreboardMainWhite"
 		
 		if_mvm
 		{

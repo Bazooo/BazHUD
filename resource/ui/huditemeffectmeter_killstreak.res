@@ -50,7 +50,7 @@
 		"textAlignment"		"center"
 		"dulltext"				"0"
 		"brighttext"				"0"
-		"fgcolor_override"				"255 255 255 75"
+		"fgcolor_override"				"mainWhite"
 		"font"					"NewFontSmall"
 	}
 
@@ -72,7 +72,7 @@
 		"textAlignment"		"center"
 		"dulltext"				"0"
 		"brighttext"				"0"
-		"fgcolor"				"255 255 255 75"
+		"fgcolor"				"mainWhite"
 		"font"					"NewFontSmall"
 	}
 
@@ -136,7 +136,7 @@
 		"textAlignment"		"north"
 		"dulltext"				"0"
 		"brighttext"				"0"
-		"fgcolor"				"255 255 255 75"
+		"fgcolor"				"mainWhite"
 		"font"					"NewCounterFontMedium"
 	}
 
