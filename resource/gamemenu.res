@@ -7,11 +7,23 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
+	"NewResumeGameButton"
+	{
+		"label"			"Resume"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+	}
 	"QuickplayButton"
 	{
 		"label" "Quickplay" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu" "1"
+	}
+	"NewQuickplayButton"
+	{
+		"label" "Quickplay" 
+		"command" "quickplay"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"

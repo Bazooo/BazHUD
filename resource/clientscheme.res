@@ -2497,7 +2497,7 @@ Scheme
 			"1"
 			{
 				"name"		"U.S. 101"
-				"tall"		"28"
+				"tall"		"27"
 				"antialias" "1"
 			}
 		}

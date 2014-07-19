@@ -1688,6 +1688,75 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"	"QuickplayButton"
+		"xpos"			"10000"
+		"ypos"			"10000"
+		"zpos"			"11"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navDown"		"PlayPVEButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"274"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"NewMenuFontDefault"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"NoBorder"
+			"border_armed"	"NoBorder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "255 255 255 200"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedFgColor_override" "231 76 60 225"
+			"armedBgColor_override" "255 255 255 200"
+			"depressedFgColor_override" "255 255 255 200"
+			"depressedBgColor_override" "0 0 0 225"
+			
+			"image_drawcolor"	"117 107 94 0"
+			"image_armedcolor"	"235 226 202 0"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"NewQuickplayButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"	"NewQuickplayButton"
 		"xpos"			"c-137"
 		"ypos"			"90"
 		"zpos"			"11"
@@ -1757,6 +1826,76 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
+		"xpos"			"10000"
+		"ypos"			"10000"
+		"zpos"			"11"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navUp"			"ServerBrowserButton"
+		"navDown"		"QuickplayChangeButton"
+		"navRight"		"CallVoteButton"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"274"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"NewMenuFontDefault"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"NoBorder"
+			"border_armed"	"NoBorder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "255 255 255 200"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedFgColor_override" "231 76 60 225"
+			"armedBgColor_override" "255 255 255 200"
+			"depressedFgColor_override" "255 255 255 200"
+			"depressedBgColor_override" "0 0 0 225"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"NewResumeGameButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"NewResumeGameButton"
 		"xpos"			"c-137"
 		"ypos"			"90"
 		"zpos"			"11"
