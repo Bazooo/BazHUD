@@ -2542,6 +2542,16 @@ Scheme
 			}
 		}
 
+		BazIconsClass
+		{
+			"1"
+			{
+				"name"		"BazHUD_icons"
+				"tall"		"40"
+				"antialias"	"1"
+			}
+		}
+
 	}
 
 	// BazHUD fonts
@@ -4457,25 +4467,10 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/caviarBold.ttf"
-			"name" "Caviar Dreams Bold"
-		}
-		"9"
-		{
-			"font" "resource/fonts/caviarItalic.ttf"
-			"name" "Caviar Dreams Italic"
-		}
-		"10"
-		{
-			"font" "resource/fonts/caviarBoldItalic.ttf"
-			"name" "Caviar Dreams Bold Italic"
-		}
-		"11"
-		{
 			"font" "resource/fonts/us101.ttf"
 			"name" "U.S. 101"
 		}
-		"12"
+		"9"
 		{
 			"font" "resource/fonts/icons.ttf"
 			"name" "BazHUD_icons"

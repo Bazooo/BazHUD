@@ -9,8 +9,8 @@
 		"zpos"			"0"
 		"wide"			"450"
 		"tall"			"170"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -20,12 +20,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
-		"xpos"			"8"
-		"ypos"			"47"
+		"xpos"			"c-50"
+		"ypos"			"40"
 		"zpos"			"1"
-		"wide"			"436"
+		"wide"			"100"
 		"tall"			"2"
-		"fillcolor"		"255 222 208 255"
+		"fillcolor"		"borderColor"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 	"BuildIcon"	
@@ -37,8 +39,8 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
@@ -53,8 +55,8 @@
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
@@ -64,39 +66,40 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"68"			// align me to the left edge of the first selection
+		"font"			"NewFontHuge"
+		"xpos"			"c-150"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"300"
-		"tall"			"38"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"Left"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"46 204 113 125"
 	}
 	
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"69"			// align me to the left edge of the first selection
-		"ypos"			"1"
+		"font"			"NewFontHuge"
+		"fgcolor"		"mainBlack"
+		"xpos"			"c-150"			// align me to the left edge of the first selection
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"38"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"Left"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -113,8 +116,8 @@
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
 		"dulltext"		"0"
@@ -125,11 +128,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"1"
 	}	
 	
@@ -137,11 +140,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"1"
 	}	
 	
@@ -149,11 +152,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"70"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"1"
 	}	
 	
@@ -161,11 +164,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"105"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"1"
 	}
 	
@@ -173,8 +176,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"10000"
+		"ypos"			"10000"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
@@ -185,8 +188,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"10000"
+		"ypos"			"10000"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
@@ -197,8 +200,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"10000"
+		"ypos"			"10000"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
@@ -209,23 +212,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"10000"
+		"ypos"			"10000"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 	
@@ -233,11 +236,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 	
@@ -245,11 +248,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"70"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 	
@@ -257,11 +260,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"105"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}
 
@@ -269,11 +272,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 	
@@ -281,11 +284,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 	
@@ -293,11 +296,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"70"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 	
@@ -305,11 +308,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"34"
+		"ypos"			"105"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"52"
+		"tall"			"30"
 		"visible"		"0"
 	}	
 }

@@ -98,6 +98,7 @@
 		"enabled"		"1"
 		"xpos"			"c-50"
 		"ypos"			"c140"
+		"zpos"			"-1"
 		"wide"			"100"
 		"tall"			"50"
 		"zpos"			"1"			// draw in front of ammo
@@ -242,6 +243,7 @@
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"-1"
 		"wide"		"f0"
 		"tall"		"f0"
 	}
@@ -485,10 +487,10 @@
 		
 		"TeamBlue"	"41 128 185 255"
 		"TeamRed"		"231 76 60 255"
-		"IconColor"		"255 255 255 100"
+		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"0 0 0 100"
+		"BaseBackgroundColor"	"0 0 0 0"
 		"LocalBackgroundColor"	"255 255 255 150"
 	}
 
@@ -962,10 +964,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"0"
+		"ypos"			"c-66"
+		"wide"			"f0"
+		"tall"			"140"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -974,10 +976,11 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
+		"xpos"			"0"
+		"ypos"			"c-66"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"140"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -998,13 +1001,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1014,7 +1014,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"
-		"ypos"			"c100"
+		"ypos"			"c110"
 		"wide"			"100"
 		"tall"			"80"
 	}	
@@ -1030,7 +1030,6 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
-
 
 	HudTeamGoalTournament
 	{
