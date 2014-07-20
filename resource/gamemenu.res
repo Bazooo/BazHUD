@@ -199,6 +199,13 @@
 	    "tooltip"	"Change scoreboard"
 	}
 
+	"NewQuitButton"
+	{
+		"label"	"#TF_Quit_Title"
+		"command"	"engine replay_confirmquit"
+		"OnlyAtMenu"	"1"
+	}
+
 	"hudCredits"
 	{
 	   "label" "^-^"

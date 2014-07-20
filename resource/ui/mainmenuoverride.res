@@ -2835,12 +2835,12 @@
 		"xpos"			"c-137"
 		"ypos"			"410"
 		"zpos"			"1"
-		"wide"			"274"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Quit_Title"
 		"font"			"NewMenuFontDefault"
@@ -4206,6 +4206,43 @@
 			"depressedBgColor_override" "0 0 0 225"
 		}
 	}
+
+	"NewQuitButton"	
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"NewQuitButton"
+		"xpos"			"c-137"
+		"ypos"			"410"
+		"zpos"			"1"
+		"wide"			"274"
+		"tall"			"30"
+		"visible"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"	"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"274"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"		"NewMenuFontDefault"
+			"textAlignment"	"center"
+			
+			"border_default"	"NoBorder"
+			"border_armed"	"NoBorder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "255 255 255 200"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedFgColor_override" "231 76 60 225"
+			"armedBgColor_override" "255 255 255 200"
+			"depressedFgColor_override" "255 255 255 200"
+			"depressedBgColor_override" "0 0 0 225"
+		}
+	}	
 
 	"menuBG"
 	{
