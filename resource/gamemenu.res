@@ -1,4 +1,4 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
 	"ResumeGameButton"
 	{
@@ -206,6 +206,13 @@
 		"OnlyAtMenu"	"1"
 	}
 
+	"DemoUIButton"
+	{
+	    "label" ">"
+	    "command" "engine demoui; demoui2"
+	    "tooltip"	"DemoUI"
+	}
+
 	"hudCredits"
 	{
 	   "label" "^-^"
@@ -218,6 +225,7 @@
 	    			echo;
 	    			echo - Miglifgantor for being the best tester 5 eva;
 	    			echo - Computer for not caring enough :P;
+	    			echo - Espurr for reminding me of how dumb I am;
 	    			echo;
 	    			echo ---------------------------------------------------------------;
 	     "

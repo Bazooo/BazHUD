@@ -72,14 +72,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"0 0 0 255"
 	}
@@ -100,11 +96,12 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"r5"
+		"xpos"			"c-50"
+		"ypos"			"c140"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"50"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"f0"
-		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -246,6 +243,7 @@
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"-1"
 		"wide"		"f0"
 		"tall"		"f0"
 	}
@@ -322,13 +320,9 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
-		"wide"		"640"
+		"xpos"		"-12"
+		"ypos"		"c-75"
+		"wide"		"300"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
@@ -493,10 +487,10 @@
 		
 		"TeamBlue"	"41 128 185 255"
 		"TeamRed"		"231 76 60 255"
-		"IconColor"		"255 255 255 100"
+		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"0 0 0 100"
+		"BaseBackgroundColor"	"0 0 0 0"
 		"LocalBackgroundColor"	"255 255 255 150"
 	}
 
@@ -970,10 +964,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"0"
+		"ypos"			"c-66"
+		"wide"			"f0"
+		"tall"			"140"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -982,10 +976,11 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
+		"xpos"			"0"
+		"ypos"			"c-66"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"140"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1006,13 +1001,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1021,10 +1013,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"r100"
-		"wide"			"f0"
-		"tall"			"100"
+		"xpos"			"c-50"
+		"ypos"			"c110"
+		"wide"			"100"
+		"tall"			"80"
 	}	
 
 	HudTeamGoal
@@ -1038,7 +1030,6 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
-
 
 	HudTeamGoalTournament
 	{
