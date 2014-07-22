@@ -1097,11 +1097,10 @@
 		"fieldName"				"HudTournament"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-125"
+		"xpos"					"c-200"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
-		"wide"					"250"
+		"wide"					"400"
 		"tall"					"80"
 	}
 
@@ -1110,9 +1109,8 @@
 		"fieldName"				"HudTournamentSetup"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-90"
+		"xpos_override"					"c-100"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1122,12 +1120,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
-		"wide"					"125"
-		"tall"					"55"
+		"xpos"					"c-140"
+		"ypos"					"0"
+		"wide"					"230"
+		"tall"					"30"
 	}
 	
 	NotificationPanel

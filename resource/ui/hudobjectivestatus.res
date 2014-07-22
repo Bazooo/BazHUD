@@ -6,7 +6,7 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-40"
 		"ypos"				"0"
-		"zpos"				"1"
+		"zpos"				"-1"
 		"wide"				"80"
 		"tall"				"150"
 		"visible"			"0"

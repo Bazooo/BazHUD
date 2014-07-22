@@ -978,6 +978,14 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Caviar Dreams"
+				"tall"		"13"
+				"weight"	"300"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+			"2"
+			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
