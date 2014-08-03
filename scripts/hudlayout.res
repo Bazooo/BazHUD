@@ -212,12 +212,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-200"
+		"ypos"					"c50"
+		"wide"					"100"
+		"tall"  				"200"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -842,10 +840,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"r250"
+		"ypos"					"0"
+		"wide"					"250"
+		"tall"					"480"
 	}
 
 	ArenaWinPanel
@@ -853,10 +851,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"r300"
+		"ypos"					"0"
+		"wide"					"300"
+		"tall"					"480"
 	}
 	
 	PVEWinPanel
@@ -1013,10 +1011,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"
-		"ypos"			"c110"
-		"wide"			"100"
-		"tall"			"80"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal

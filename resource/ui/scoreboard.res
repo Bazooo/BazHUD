@@ -12,6 +12,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"avatar_width"		"50"
+		"avatar_width_hidef"		"54"
 		"avatar_width_minmode"		"57"
 		"name_width"		"100"
 		"status_width"		"15"
@@ -1778,5 +1779,27 @@
 		{
 			"visible"		"1"
 		}
+	}
+	"CrosshairLineHorizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CrosshairLineHorizontal"
+		"xpos"				"c0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"1"
+		"tall"				"480"
+		"fillcolor"			"0 0 0 45"
+	}
+	"CrosshairLineVertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CrosshairLineHorizontal"
+		"xpos"				"0"
+		"ypos"				"c0"
+		"zpos"				"-1"
+		"wide"				"f0"
+		"tall"				"1"
+		"fillcolor"			"0 0 0 45"
 	}
 }

@@ -172,8 +172,8 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 
 		"borderColor"	"255 255 255 75"
-		"mainWhite"	"255 255 255 75"
-		"mainWhiter"	"255 255 255 100"
+		"mainWhite"	"255 255 255 100"
+		"mainWhiter"	"255 255 255 125"
 		"mainBlack"	"0 0 0 75"
 		"scoreboardMainWhite"	"255 255 255 75"
 	}

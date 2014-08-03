@@ -35,34 +35,34 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "Mann Vs Machine" 
+		"label" "#TF_MvM_HeaderMannVsMachine" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Browse Servers" 
+		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "Change Server" 
+		"label" "#MMenu_ChangeServer" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replays"
+		"label" "#MMenu_Replays"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "Workshop"
+		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 	}
@@ -75,7 +75,7 @@
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
+		"label" "#MMenu_Tooltip_Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
@@ -226,6 +226,7 @@
 	    			echo - Miglifgantor for being the best tester 5 eva;
 	    			echo - Computer for not caring enough :P;
 	    			echo - Espurr for reminding me of how dumb I am;
+	    			echo - Bagel for bringing his canadian support all over me;
 	    			echo;
 	    			echo ---------------------------------------------------------------;
 	     "
