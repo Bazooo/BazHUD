@@ -11,7 +11,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"avatar_width"		"50"
+		"avatar_width"		"60"
 		"avatar_width_hidef"		"54"
 		"avatar_width_minmode"		"57"
 		"name_width"		"100"
