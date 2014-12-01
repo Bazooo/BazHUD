@@ -18,6 +18,13 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//BazHUD colors
+		"borderColor"	"255 255 255 75"
+		"mainWhite"	"255 255 255 255"
+		"mainWhiter"	"255 255 255 255"
+		"mainBlack"	"0 0 0 75"
+		"scoreboardMainWhite"	"255 255 255 255"
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -170,12 +177,6 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
-
-		"borderColor"	"255 255 255 75"
-		"mainWhite"	"255 255 255 255"
-		"mainWhiter"	"255 255 255 255"
-		"mainBlack"	"0 0 0 75"
-		"scoreboardMainWhite"	"255 255 255 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

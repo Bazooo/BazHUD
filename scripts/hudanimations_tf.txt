@@ -86,6 +86,8 @@ event MenuOpen
 
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
+
+	StopEvent	UberTracking		0.0
 }
 
 event MenuClose
@@ -96,6 +98,9 @@ event MenuClose
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+
+	RunEvent	ResetUberTracking	0.0
+	RunEvent UberTracking 0.25
 }
 
 event MenuPulse
@@ -234,11 +239,11 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 
-	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.0
-	Animate 	HealthStatusBuffed					Alpha 		"0"		Linear 0.0 0.0
-	Animate 	HealthStatusDefaultDS				Alpha 		"255"			Linear 0.0 0.0
-	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75" Linear 0.0 0.0
-	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	linear 0.0 0.0
+	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" 	Linear 0.0 0.0
+	Animate 	HealthStatusBuffed					Alpha 		"0"					Linear 0.0 0.0
+	Animate 	HealthStatusDefaultDS				Alpha 		"255"				Linear 0.0 0.0
+	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
+	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -275,12 +280,12 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 
-	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" Linear 0.0 0.0
-	Animate 	HealthStatusDefault				Alpha 		"255"		Linear 0.0 0.0
-	Animate 	HealthStatusDefaultDS				Alpha 		"255"		Linear 0.0 0.0
-	Animate 	HealthStatusCritical				Alpha 		"0"			Linear 0.0 0.0
-	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75" Linear 0.0 0.0
-	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	linear 0.0 0.0
+	Animate 	PlayerStatusHealthValue			fgcolor 		"255 255 255 75" 	Linear 0.0 0.0
+	Animate 	HealthStatusDefault				Alpha 		"255"				Linear 0.0 0.0
+	Animate 	HealthStatusDefaultDS				Alpha 		"255"				Linear 0.0 0.0
+	Animate 	HealthStatusCritical				Alpha 		"0"					Linear 0.0 0.0
+	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
+	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -468,8 +473,8 @@ event HudMedicCharged
 	Animate	ChargeLabel 	FgColor		"241 114 136 175"		Spline 0.0 0.6
 	Animate	ChargeLabel 	FgColor		"52 152 219 175"		Spline 0.6 0.6
 
-	Animate	ChargeMeter 	FgColor		"241 114 136 255"		Spline 0.0 0.6
-	Animate	ChargeMeter 	FgColor		"52 152 219 255"		Spline 0.6 0.6
+	Animate	ChargeMeter 	FgColor		"241 114 136 125"		Spline 0.0 0.6
+	Animate	ChargeMeter 	FgColor		"52 152 219 125"		Spline 0.6 0.6
 
 	RunEvent HudMedicChargedLoop	1.2
 }
@@ -774,8 +779,6 @@ event DamagedPlayer
 	
 	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.0	
 	Animate	DamageAccountValueDS		Alpha	"255"	Linear 0.0 0.0
-	Animate	DamageAccountValue			Alpha	"0"		Linear 1.5 0.1	
-	Animate	DamageAccountValueDS		Alpha	"0"		Linear 1.5 0.1
 }
 
 //===========================================
@@ -866,3 +869,28 @@ event RespecEarnedPulseEndLoss
 }
 
 //
+
+
+event UberTracking
+{
+	Animate UberTrackerBar 				Alpha		"255"					Linear 0.0 0.000001
+	Animate UberTrackerOverBar 			Alpha		"255"					Linear 0.0 0.000001
+	Animate UberTrackerOverBar 			Position	"r0 r2"					Linear 0.0 40.0
+	
+	Animate UberTrackerLabel30			Position	"r100 r30"				Linear 29.75 0.25
+	Animate UberTrackerLabel30Box		Position	"r100 r30"				Linear 29.75 0.25
+	
+	Animate UberTrackerLabel40			Position	"r100 r30"				Linear 39.75 0.25
+	Animate UberTrackerLabel40Box		Position	"r100 r30"				Linear 39.75 0.25
+}
+
+event ResetUberTracking
+{
+	Animate UberTrackerOverBar Position	"0 r2"				Linear 0.0 0.1
+
+	Animate UberTrackerLabel30			Position	"r0 r30"				Linear 0.0 0.1
+	Animate UberTrackerLabel30Box		Position	"r0 r30"				Linear 0.0 0.1
+
+	Animate UberTrackerLabel40			Position	"r0 r30"				Linear 0.0 0.1
+	Animate UberTrackerLabel40Box		Position	"r0 r30"				Linear 0.0 0.1
+}

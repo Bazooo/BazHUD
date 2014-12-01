@@ -1,29 +1,32 @@
 "Resource/UI/HudInspectPanel.res"
 {	
+
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"10"
-		"wide"			"270"
-		"tall"			"100"
+		"wide"			"265"
+		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_wide"		"64"
+		"model_tall"		"48"
 		
 		"text_xpos"		"90"
-		"text_wide"		"170"
+		"text_ypos"		"25"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
-		"padding_height"	"40"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
@@ -34,25 +37,57 @@
 			"useparentbg"		"1"
 		}
 		
+		"ItemBackground"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-99"
+			"wide" "265"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "mainBlack"
+		}
+		
+		"TitleBackground"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "TitleBackground"
+			"xpos" "4"
+			"ypos" "4"
+			"zpos" "-99"
+			"wide" "232"
+			"tall" "14"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 0"
+		}
+		
 		"ItemLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"NewFontTiny"
 			"xpos"			"10"
-			"ypos"			"3"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
-			"tall"			"9"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"fgcolor_override"		"255 255 255 200"
-			"textAlignment"	"Left"
+			"textAlignment"	"south-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"		"mainWhite"
 		}
 	}	
 }

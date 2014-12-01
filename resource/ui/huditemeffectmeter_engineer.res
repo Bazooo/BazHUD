@@ -5,14 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c-50"
+		"ypos"			"c170"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"40"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -26,8 +22,7 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -48,8 +43,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
@@ -84,19 +79,41 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"NewCounterFontBig"
+		"fgcolor"			"mainWhite"
+	}
+
+	"ItemEffectMeterCountDS"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountDS"
+		"xpos"					"0"
+		"ypos"					"2"
+		"zpos"					"2"
+		"wide"					"100"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"NewCounterFontBig"
+		"fgcolor"			"mainBlack"
 	}
 }

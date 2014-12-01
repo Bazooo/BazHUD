@@ -376,13 +376,14 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"156"
+			"font"			"NewFontSmall"
+			"xpos"			"0"
 			"ypos"			"106"
-			"wide"			"190"
-			"tall"			"12"
+			"wide"			"500"
+			"tall"			"15"
+			"zpos"			"2"
 			"visible"		"0"
-			"fgcolor"		"Black"
+			"fgcolor_override"		"mainBlack"
 		}
 	}
 	
@@ -520,11 +521,11 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"155"
+			"font"			"NewFontSmall"
+			"xpos"			"0"
 			"ypos"			"105"
-			"wide"			"190"
-			"tall"			"12"
+			"wide"			"500"
+			"tall"			"15"
 			"zpos"			"3"
 		}
 	}
@@ -588,6 +589,10 @@
 		"wide"			"200"
 		"tall"			"2"
 		"fillcolor"		"52 152 219 75"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"TournamentREDLabel"
@@ -649,5 +654,9 @@
 		"wide"			"200"
 		"tall"			"2"
 		"fillcolor"		"231 76 60 75"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 }

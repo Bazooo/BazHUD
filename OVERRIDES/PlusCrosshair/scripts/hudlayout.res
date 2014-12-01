@@ -10,22 +10,6 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-		"DamagedPlayerCircle"
-		{
-			"controlName" "CExLabel"
-			"fieldName" "DamagedPlayerCircle"
-			"visible" "0"
-			"enabled" "0"
-			"xpos" "c-50"
-			"ypos" "c-50"
-			"wide" "100"
-			"tall"	 "100"
-			"font" "CrosshairFont"
-			"labelText" "O"
-			"zpos"	 "-4"
-			"textAlignment" "center"
-			"fgcolor" "255 255 255 10"
-		}
 
 		"CrosshairLineHorizontal"
 		{
@@ -36,7 +20,7 @@
 			"zpos"				"-1"
 			"wide"				"1"
 			"tall"				"480"
-			"fillcolor"			"255 255 255 10"
+			"fillcolor"			"0 0 0 75"
 		}
 		"CrosshairLineVertical"
 		{
@@ -47,30 +31,7 @@
 			"zpos"				"-1"
 			"wide"				"f0"
 			"tall"				"1"
-			"fillcolor"			"255 255 255 10"
-		}
-
-		"CrosshairLineHorizontalBlack"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"CrosshairLineHorizontalBlack"
-			"xpos"				"c0"
-			"ypos"				"0"
-			"zpos"				"-1"
-			"wide"				"1"
-			"tall"				"480"
-			"fillcolor"			"0 0 0 10"
-		}
-		"CrosshairLineVerticalBlack"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"CrosshairLineVerticalBlack"
-			"xpos"				"0"
-			"ypos"				"c0"
-			"zpos"				"-1"
-			"wide"				"f0"
-			"tall"				"1"
-			"fillcolor"			"0 0 0 10"
+			"fillcolor"			"0 0 0 75"
 		}
 	}
 
@@ -853,9 +814,10 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"1"	// distance between the icons (including their backgrounds)
-		"separator_height"		"12"
-		"height_offset"			"0"
+		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_height"		"7"
+		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
+		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -1406,16 +1368,5 @@
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
-	}
-
-	HudMiniGame
-	{
-		"fieldName" "HudMiniGame"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
 	}
 }

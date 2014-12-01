@@ -19,15 +19,16 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-30"
 		"wide"				"250"
-		"tall"				"30"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"fillcolor"		"0 0 0 125"
+		"alpha"			"0"
 	}
 	"BottomBar"
 	{
@@ -58,32 +59,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"245"
+		"xpos"			"c-200"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"400"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"font"			"NewFontSmall"
-		"fgcolor_override"		"255 255 255 255"
-	}
-	"ReinforcementsBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ReinforcementsBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"250"
-		"tall"				"30"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"0 0 0 125"
+		"fgcolor_override"		"MainWhite"
 	}
 	"BuyBackLabel"
 	{
@@ -115,9 +103,9 @@
 		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
 		"fgcolor_override"		"mainWhite"
@@ -281,18 +269,20 @@
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
+
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"r268"
+		"ypos"			"c5"
 		"zpos"			"1"
-		"wide"			"270"
+		"wide"			"265"
 		"tall"			"180"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"PaintBorder"				"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
@@ -314,12 +304,28 @@
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
+
+		"ItemBackground"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "1"
+			"wide" "260"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "mainBlack"
+		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"NewFontTiny"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -333,6 +339,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor_override"		"mainWhite"
 		}
 	}	
 }

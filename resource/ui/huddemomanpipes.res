@@ -174,13 +174,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"%activepipes%"
+			"labelText"		"0"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"NewCounterFontBig"
 			"fgcolor"		"mainWhite"
 		}
+
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -195,7 +196,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"%activepipes%"
+			"labelText"		"0"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

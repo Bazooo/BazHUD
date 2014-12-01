@@ -4,14 +4,15 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"r278"
+		"ypos"			"c45"
 		"zpos"			"1"
-		"wide"			"270"
+		"wide"			"268"
 		"tall"			"180"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
@@ -34,12 +35,28 @@
 			"useparentbg"		"1"
 		}
 		
+		"ItemBackground"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-99"
+			"wide" "275"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "mainBlack"
+		}
+
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
+			"font"			"NewFontTiny"
+			"xpos"			"5"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
@@ -52,6 +69,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor_override"	"mainWhite"
 		}
 	}		
 	
@@ -59,9 +77,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r270"
+		"xpos"			"r285"
 		"ypos"			"93"		
-		"wide"			"267"		
+		"wide"			"275"		
 		"tall"			"200"		
 		"visible"		"1"
 
@@ -72,7 +90,7 @@
 			"xpos"				"8"
 			"ypos"				"158"
 			"zpos"				"0"
-			"wide"			"256"
+			"wide"			"275"
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -86,7 +104,7 @@
 			"xpos"				"8"
 			"ypos"				"190"
 			"zpos"				"0"
-			"wide"			"256"
+			"wide"			"275"
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -100,7 +118,7 @@
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"0"
-			"wide"			"256"
+			"wide"			"275"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"

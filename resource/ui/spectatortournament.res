@@ -350,7 +350,8 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
+		"ypos"			"-99999"
 	}
 	"BottomBar"
 	{
@@ -371,23 +372,25 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"5"
-		"ypos"			"0"
-		"wide"			"300"
+		"xpos"			"c-200"
+		"ypos"			"57"
+		"zpos"			"2"
+		"wide"			"400"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"font"			"NewFontSmall"
+		"fgcolor_override"		"MainWhite"
 		
 		if_mvm
 		{
-			"xpos"			"c-190"
-			"ypos"			"1"
-			"wide"			"380"
+			"xpos"			"c-200"
+			"ypos"			"100"
+			"wide"			"400"
 			"textAlignment"		"center"
 		}
 	}
@@ -473,14 +476,15 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"r268"
+		"ypos"			"c5"
 		"zpos"			"1"
-		"wide"			"270"
+		"wide"			"265"
 		"tall"			"180"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"PaintBorder"				"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
@@ -502,12 +506,28 @@
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
+
+		"ItemBackground"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-99"
+			"wide" "260"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "mainBlack"
+		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"NewFontTiny"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -521,26 +541,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor_override"		"mainWhite"
 		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}	
+	}
 }
