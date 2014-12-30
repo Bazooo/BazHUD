@@ -87,6 +87,46 @@
 		"fillcolor"		"separator"
 	}
 
+	"DamagedPlayerCircle"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "DamagedPlayerCircle"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "c-50"
+		"ypos" "c-50"
+		"wide" "100"
+		"tall"	 "100"
+		"font" "CrosshairFont"
+		"labelText" "O"
+		"zpos"	 "-4"
+		"textAlignment" "center"
+		"fgcolor" "crosshairCircle"
+	}
+
+	"CrosshairLineHorizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CrosshairLineHorizontal"
+		"xpos"				"c0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"1"
+		"tall"				"480"
+		"fillcolor"			"longasscrosshair"
+	}
+	"CrosshairLineVertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CrosshairLineVertical"
+		"xpos"				"0"
+		"ypos"				"c0"
+		"zpos"				"-1"
+		"wide"				"f0"
+		"tall"				"1"
+		"fillcolor"			"longasscrosshair"
+	}
+
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
