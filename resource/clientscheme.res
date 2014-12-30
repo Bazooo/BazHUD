@@ -27,7 +27,7 @@ Scheme
 					// Crosshairs
 						"crosshairCircle"		"189 195 199 100"		// The circle around the crosshair
 						"crosshairTriggered"	"189 195 199 255"		// The circle when damaging player
-						"longasscrosshair"		"189 195 199 255"		// The crosshair helper the huge plus
+						"longasscrosshair"		"189 195 199 50"		// The crosshair helper the huge plus
 
 					// Rest of the shit
 						"separator"				"189 195 199 255"		// Bar between character and health/ammo
