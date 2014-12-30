@@ -18,7 +18,8 @@ Scheme
 		// base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
-		"DullWhite"			"142 142 142 255"
+		"NewWhite"		"142 142 142 255"
+		"DullWhite"			"0 0 0 0"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
@@ -53,7 +54,7 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
 
-		ComboBoxButton.ArrowColor		"DullWhite"
+		ComboBoxButton.ArrowColor		"NewWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
@@ -90,7 +91,7 @@ Scheme
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"DullWhite"
+		Label.TextDullColor				"NewWhite"
 		Label.TextColor					"OffWhite"
 		Label.TextBrightColor				"White"
 		Label.SelectedTextColor				"White"
@@ -122,7 +123,7 @@ Scheme
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"DullWhite"
+		RadioButton.TextColor			"NewWhite"
 		RadioButton.SelectedTextColor	"White"
 
 		RichText.TextColor				"OffWhite"
@@ -130,7 +131,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					10
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -145,7 +146,7 @@ Scheme
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"DullWhite"
+		SectionedListPanel.TextColor		"NewWhite"
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
@@ -162,7 +163,7 @@ Scheme
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.BgColor			"TransparentBlack"
 		TextEntry.CursorColor		"OffWhite"
-		TextEntry.DisabledTextColor	"DullWhite"
+		TextEntry.DisabledTextColor	"NewWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"Orange"
@@ -380,6 +381,46 @@ Scheme
 		{
 			// rounded corners for frames
 			"backgroundtype" "2"
+		}
+
+		NoBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		DepressedBorder

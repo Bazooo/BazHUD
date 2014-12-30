@@ -18,12 +18,81 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		//BazHUD colors
-		"borderColor"	"255 255 255 75"
-		"mainWhite"	"255 255 255 100"
-		"mainWhiter"	"255 255 255 125"
-		"mainBlack"	"0 0 0 75"
-		"scoreboardMainWhite"	"255 255 255 75"
+		// BazHUD colors
+
+			// In game colors
+				// General
+					"separator"			"189 195 199 255"		// Bar between character and health/ammo
+					"health"			"29 29 29 255"
+					"healthBG"			"189 195 199 100"
+					"healthDanger"		"231 76 60 255"
+					"healthBonus"		"46 204 113 255"
+					"healthStatusBG"	"29 29 29 255"
+					"healthEarned"		"46 204 113 255"
+					"healthGiven"		"46 204 113 255"		// Damage values appearing when shooting someone
+					"healthTaken"		"189 195 199 255"
+					"damage"			"189 195 199 255"		// Damage appearing on hud (not over players)	
+					"damageBG"		"29 29 29 255"
+					"ammoClip"		"189 195 199 255"
+					"ammoReserve"	"189 195 199 255"
+					"ammoNoClip"		"189 195 199 255"
+					"ammoLow"		"192 57 43 255"
+					"streak"			"189 195 199 255"
+
+				// Class Specific
+					// Multiclass
+						"charge"			"39 174 96 255"		// Stickies, Loose Cannon, Bow bar
+						"chargeBG"		"0 0 0 0"
+						"criticals"			"189 195 199 255"		// Counter crit manmelter, frontier justice
+						"ItemEffect"		"39 174 96 255"		// Phlog, Soldier, Scout Balls, Heavy's Food, Jarate, Spy's Cloak bar
+						"ItemEffectBG"		"0 0 0 0"
+					// Scout
+						"scoutPrimary"			"39 174 96 255"	// Baby Face's Blaster, Soda Popper bar
+						"scoutPrimaryBG"		"29 29 29 255"
+						"scoutSecondary"		"39 174 96 255"	// Bonk, Crit, Milk bar
+						"scoutSecondaryBG"	"29 29 29 255"
+						"scoutCleaver"			"39 174 96 255"	// Guillotine bar
+						"scoutCleaverBG"		"29 29 29 255"
+					// Soldier
+						"soldierPrimary"		"39 174 96 255"	// Cowmangler bar
+						"soldierPrimaryBG"		"29 29 29 255"
+						"soldierSecondary"		"39 174 96 255"	// Bison bar
+						"soldierSecondaryBG"	"29 29 29 255"
+					// Pyro
+						"pyroPhlog"		"39 174 96 255"		// Phlog bar
+						"pyroPhlogBG"		"0 0 0 0"
+					// Demoman
+						"demoStickies"			"189 195 199 255"	// Sticky counter
+						"demoShield"			"39 174 96 255"	// Shield Charge bar
+						"demoShieldBG"		"29 29 29 255"
+					// Heavy
+					// Engineer
+						"engineerPrimary"			"39 174 96 255"	// Pomson 6000
+						"engineerPrimaryBG"		"29 29 29 255"
+					// Medic
+						"uberPercentage"	"189 195 199 255"
+						"uberBar"			"39 174 96 255"
+						"uberBG"			"29 29 29 255"
+						"uberFullBG"		"29 29 29 255"
+						"uberFull"			"46 204 113 255"
+						"vac1"				"29 29 29 255"
+						"vac2"				"29 29 29 255"
+						"vac3"				"29 29 29 255"
+						"vac4"				"29 29 29 255"
+					// Sniper
+						"sniperPrimary"		"39 174 96 255"		// Hitman's Heatmaker bar
+						"sniperPrimaryBG"		"29 29 29 255"
+						"sniperBazaar"			"189 195 199 255"		// Bazaar Bargain counter
+					// Spy
+						"spyDiamond"			"189 195 199 255"		// Diamondback counter
+						"spyMelee"				"39 174 96 255"		// Spycicle bar
+						"spyMeleeBG"			"29 29 29 255"
+			"dropshadows"	"0 0 0 125"
+			"borderColor"	"255 255 255 75"
+			"mainWhite"	"255 255 255 100"
+			"mainWhiter"	"255 255 255 125"
+			"mainBlack"	"0 0 0 75"
+			"scoreboardMainWhite"	"255 255 255 75"
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2439,6 +2508,71 @@ Scheme
 			}
 		}
 
+		HealthFont
+		{
+			"1"
+			{
+				"name"		"U.S. 101"
+				"tall"		"62"
+				"antialias" 	"1"
+				"additive"	"0"
+			}
+		}
+
+		AmmoClipFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		AmmoReserveFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"20"
+				"antialias" 	"1"
+				"additive"	"0"
+			}
+		}
+
+		AmmoNoClipFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		CritsFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		CounterFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
 		NewFontTiny
 		{

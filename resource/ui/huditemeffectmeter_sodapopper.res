@@ -45,8 +45,8 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"30"
-		"tall"					"30"
+		"wide"					"0"
+		"tall"					"0"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -79,7 +79,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"	"255 255 255 25"
-		"alpha"				"75"
+		"fgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"255 255 255 255"
 	}					
 }

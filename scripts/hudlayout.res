@@ -79,9 +79,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c50"
-		"ypos"	"c100"
-		"wide"	"150"
+		"xpos"	"205"
+		"ypos"	"r115"
+		"wide"	"f0"
 		"tall"	"80"
 	}
 	
@@ -131,10 +131,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"110"
+		"ypos"			"r115"
+		"wide"			"335"
+		"tall"			"95"
 	}
 	
 	HudDemomanCharge
@@ -142,11 +142,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"
-		"ypos"			"c140"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"110"
+		"ypos"			"r180"
+		"zpos"			"10"
+		"wide"			"175"
+		"tall"			"5"
 		"zpos"			"1"			// draw in front of ammo
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -1057,7 +1057,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r115"
 		"wide"			"f0"
 		"tall"			"480"
 	}	

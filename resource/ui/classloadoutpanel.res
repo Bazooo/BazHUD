@@ -480,7 +480,7 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"zpos"			"0"
+		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"55"
 		"autoResize"	"0"
