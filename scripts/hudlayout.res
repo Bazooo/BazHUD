@@ -14,8 +14,8 @@
 		{
 			"controlName" "CExLabel"
 			"fieldName" "DamagedPlayerCircle"
-			"visible" "0"
-			"enabled" "0"
+			"visible" "1"
+			"enabled" "1"
 			"xpos" "c-50"
 			"ypos" "c-50"
 			"wide" "100"
@@ -24,7 +24,7 @@
 			"labelText" "O"
 			"zpos"	 "-4"
 			"textAlignment" "center"
-			"fgcolor" "255 255 255 10"
+			"fgcolor" "crosshairCircle"
 		}
 
 		"CrosshairLineHorizontal"

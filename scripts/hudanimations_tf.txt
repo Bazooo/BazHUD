@@ -749,8 +749,8 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	Animate DamagedPlayerCircle 		fgcolor 		"255 255 255 50" Linear 0.0 0.0
-	Animate DamagedPlayerCircle 		fgcolor 		"255 255 255 10" Linear 0.0 0.3
+	Animate DamagedPlayerCircle 		fgcolor 		"crosshairTriggered" 		Linear 0.0 0.0
+	Animate DamagedPlayerCircle 		fgcolor 		"crosshairCircle"	Linear 0.0 0.3
 
 	
 	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.0	

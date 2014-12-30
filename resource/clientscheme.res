@@ -21,23 +21,31 @@ Scheme
 		// BazHUD colors
 
 			// In game colors
+				
 				// General
-					"separator"			"189 195 199 255"		// Bar between character and health/ammo
-					"health"			"29 29 29 255"
-					"healthBG"			"189 195 199 100"
-					"healthDanger"		"231 76 60 255"
-					"healthBonus"		"46 204 113 255"
-					"healthStatusBG"	"29 29 29 255"
-					"healthEarned"		"46 204 113 255"
-					"healthGiven"		"46 204 113 255"		// Damage values appearing when shooting someone
-					"healthTaken"		"189 195 199 255"
-					"damage"			"189 195 199 255"		// Damage appearing on hud (not over players)	
-					"damageBG"		"29 29 29 255"
-					"ammoClip"		"189 195 199 255"
-					"ammoReserve"	"189 195 199 255"
-					"ammoNoClip"		"189 195 199 255"
-					"ammoLow"		"192 57 43 255"
-					"streak"			"189 195 199 255"
+					
+					// Crosshairs
+						"crosshairCircle"		"189 195 199 100"		// The circle around the crosshair
+						"crosshairTriggered"	"189 195 199 255"		// The circle when damaging player
+						"longasscrosshair"		"189 195 199 255"		// The crosshair helper the huge plus
+
+					// Rest of the shit
+						"separator"				"189 195 199 255"		// Bar between character and health/ammo
+						"health"				"29 29 29 255"
+						"healthBG"				"189 195 199 100"
+						"healthDanger"			"231 76 60 255"
+						"healthBonus"			"46 204 113 255"
+						"healthStatusBG"		"29 29 29 255"
+						"healthEarned"			"46 204 113 255"
+						"healthGiven"			"46 204 113 255"		// Damage values appearing when shooting someone
+						"healthTaken"			"189 195 199 255"
+						"damage"				"189 195 199 255"		// Damage appearing on hud (not over players)	
+						"damageBG"			"29 29 29 255"
+						"ammoClip"			"189 195 199 255"
+						"ammoReserve"		"189 195 199 255"
+						"ammoNoClip"			"189 195 199 255"
+						"ammoLow"			"192 57 43 255"
+						"streak"				"189 195 199 255"
 
 				// Class Specific
 					// Multiclass
