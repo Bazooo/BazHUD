@@ -5,10 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"
-		"ypos"			"c100"
-		"wide"			"150"
-		"tall"			"50"
+		"xpos"			"110"
+		"ypos"			"r55"
+		"wide"			"175"
+		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -61,7 +61,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"175"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -70,7 +70,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"alpha"				"150"
-		"bgcolor_override"		"52 152 219 100"
+		"bgcolor_override"		"engineerPrimaryBG"
 	}					
 }

@@ -116,8 +116,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r127"
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -150,25 +149,55 @@
 		{
 			"visible"	"r142"
 		}
-	}		
+	}
+
+	"bar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"bar"
+		"xpos"				"r285"
+		"ypos"				"r55"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"CTFBG"
+
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}	
 	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"0"
-		"ypos"			"40"
+		"fieldName"	"PlayingTo"
+		"xpos"			"r285"
+		"ypos"			"r55"
 		"zpos"			"4"
-		"wide"			"75"
+		"wide"			"285"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		"textinsetx"		"10"
 		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NewFontSmall"
-		"fgcolor"		"mainWhite"
+		"fgcolor"		"CTFText"
 		
 		"if_hybrid"
 		{
@@ -186,35 +215,43 @@
 		}
 	}
 
-	"PlayingToShadow"
+	"BlueFlag"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingToShadow"
-		"xpos"			"0"
-		"ypos"			"41"
-		"zpos"			"4"
-		"wide"			"75"
-		"tall"			"20"
+		"ControlName"	"CTFFlagStatus"
+		"fieldName"		"BlueFlag"
+		"xpos"			"r285"
+		"ypos"			"r65"
+		"zpos"			"5"
+		"wide"			"60"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"NewFontSmall"
-		"fgcolor"		"mainBlack"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
+			"ypos"		"r100"
 		}
 		
-		"if_mvm"
+		"if_hybrid_single"
 		{
-			"visible"	"0"
+			"xpos"		"c-30"
+			"ypos"		"r60"
 		}
 		
+		"if_hybrid_double"
+		{
+			"xpos"		"c-115"
+			"ypos"			"r95"
+		}
+
 		"if_specialdelivery"
+		{
+			"xpos"			"c-80"
+			"ypos"		"r100"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -224,47 +261,15 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BluTeamBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"30"
-		"tall"				"40"
+		"xpos"				"r285"
+		"ypos"				"r55"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"52 152 219 75"
+		"fillcolor"			"CTFBlu"
 
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
-
-	"BlueName"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueName"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"8"
-		"wide"			"30"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"#TF_BlueTeam_Name"
-		"font"			"NewFontSmall"
-		"fgcolor"		"MainWhite"
-		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -285,47 +290,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"0"
-		"ypos"			"20"
+		"xpos"			"r285"
+		"ypos"			"r55"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"40"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
 		"font"			"NewFontSmall"
-		"fgcolor"		"MainWhite"
+		"fgcolor"		"CTFText"
 		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}	
-
-	"RedTeamBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"RedTeamBG"
-		"xpos"				"30"
-		"ypos"				"0"
-		"zpos"				"8"
-		"wide"				"30"
-		"tall"				"40"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"231 76 60 75"
-
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -341,23 +317,62 @@
 			"visible"	"0"
 		}
 	}
-
-	"RedName"
+			
+	"RedFlag"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedName"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"8"
-		"wide"			"30"
-		"tall"			"20"
+		"ControlName"	"CTFFlagStatus"
+		"fieldName"		"RedFlag"
+		"xpos"			"r225"
+		"ypos"			"r65"
+		"zpos"			"5"
+		"wide"			"60"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"#TF_RedTeam_Name"
-		"font"			"NewFontSmall"
-		"fgcolor"		"MainWhite"
+				
+		"if_hybrid"
+		{
+			"visible"	"0"
+			"ypos"		"r100"
+		}
 		
+		"if_hybrid_single"
+		{
+			"xpos"		"c-80"
+			"ypos"			"r95"
+		}
+		
+		"if_hybrid_double"
+		{
+			"xpos"		"c-45"
+			"ypos"			"r95"
+		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
+			"ypos"			"r95"
+		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
+
+	"RedTeamBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedTeamBG"
+		"xpos"				"r225"
+		"ypos"				"r55"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"CTFRed"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -378,17 +393,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"30"
-		"ypos"			"20"
+		"xpos"			"r225"
+		"ypos"			"r55"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"40"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"NewFontSmall"
-		"fgcolor"		"MainWhite"		
+		"fgcolor"		"CTFText"		
 		
 		"if_hybrid"
 		{
@@ -437,84 +452,7 @@
 		}
 	}	
 		
-	"BlueFlag"
-	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"BlueFlag"
-		"xpos"			"c-80"
-		"ypos"			"r95"
-		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
 		
-		"if_hybrid"
-		{
-			"visible"	"0"
-			"ypos"		"r100"
-		}
-		
-		"if_hybrid_single"
-		{
-			"xpos"		"c-30"
-			"ypos"		"r60"
-		}
-		
-		"if_hybrid_double"
-		{
-			"xpos"		"c-115"
-		}
-
-		"if_specialdelivery"
-		{
-			"ypos"		"r100"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}
-			
-	"RedFlag"
-	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"RedFlag"
-		"xpos"			"c20"
-		"ypos"			"r95"
-		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-				
-		"if_hybrid"
-		{
-			"visible"	"0"
-			"ypos"		"r100"
-		}
-		
-		"if_hybrid_single"
-		{
-			"xpos"		"c-80"
-		}
-		
-		"if_hybrid_double"
-		{
-			"xpos"		"c-45"
-		}
-
-		"if_specialdelivery"
-		{
-			"ypos"		"r100"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}	
 			
 	"CaptureFlag"
 	{

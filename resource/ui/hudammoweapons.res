@@ -37,6 +37,17 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
+	"AmmoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"AmmoBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"35"
+		"fillcolor"		"ammoBG"
+	}
 	"AmmoLowBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -54,7 +65,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"AmmoClipFont"
 		"fgcolor"		"ammoClip"
-		"xpos"			"5"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"35"
@@ -96,22 +107,6 @@
 		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
 	}		
-	"AmmoInReserveShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserveShadow"
-		"font"			"NewCounterFontMedium"
-		"fgcolor"		"0 0 0 125"
-		"xpos"			"169"
-		"ypos"			"2"
-		"zpos"			"7"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"center"		
-		"labelText"		"%AmmoInReserve%"
-	}		
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -127,7 +122,23 @@
 		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
-	}	
+	}			
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"font"			"NewCounterFontMedium"
+		"fgcolor"		"0 0 0 125"
+		"xpos"			"169"
+		"ypos"			"2"
+		"zpos"			"7"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"center"		
+		"labelText"		"%AmmoInReserve%"
+	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"

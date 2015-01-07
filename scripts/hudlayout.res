@@ -18,7 +18,8 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"205"
-		"ypos"	"r115"
+		"ypos"	"r50"
+		"zpos"	"1"
 		"wide"	"f0"
 		"tall"	"80"
 	}
@@ -56,10 +57,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"110"
+		"ypos"			"r52"
+		"wide"			"175"
+		"tall"			"2"
 		"MeterFG"		"White"
 		"MeterBG"		"0 0 0 255"
 	}
@@ -70,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"110"
-		"ypos"			"r115"
+		"ypos"			"r50"
 		"wide"			"335"
 		"tall"			"95"
 	}
@@ -81,8 +82,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"110"
-		"ypos"			"r180"
-		"zpos"			"10"
+		"ypos"			"r115"
+		"zpos"			"0"
 		"wide"			"175"
 		"tall"			"5"
 		"zpos"			"1"			// draw in front of ammo
@@ -161,14 +162,12 @@
 		"PlusStyleExpandSelected"	"0.3"
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
-		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
+		"BoxGap" "4"
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
-		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
+		"TextYPos" "65"
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -184,9 +183,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"			"CHudAccountPanel"
-		"xpos"					"c-25"
-		"ypos"					"c125"
-		"wide"					"50"
+		"xpos"					"110"
+		"ypos"					"r145"
+		"wide"					"175"
 		"tall"  					"100"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -196,10 +195,11 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-200"
-		"ypos"					"c50"
+		"xpos"					"185"
+		"ypos"					"r180"
 		"wide"					"100"
-		"tall"  				"200"
+		"tall"  					"200"
+		"zpos"					"1"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -565,8 +565,8 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c200"
-		"ypos"		"c100"
+		"xpos"		"285"
+		"ypos"		"r95"
 		"wide"		"150"
 		"tall"		"50"
 
@@ -995,7 +995,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"r115"
+		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 	}	

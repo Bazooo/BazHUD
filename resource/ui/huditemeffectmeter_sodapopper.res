@@ -5,13 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
-		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"110"
+		"ypos"			"r50"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -45,21 +40,20 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"0"
-		"tall"					"0"
+		"wide"					"90"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
+		"textinsetx"				"5"
 		"labelText"				"#TF_ENERGYDRINK"
-		"textAlignment"			"center"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BazIcons"
-		"fgcolor_override"		"0 0 0 255"
+		"font"					"NewFontSmall"
+		"fgcolor_override"		"scoutPrimary"
 	}
 
 	"ItemEffectMeter"
@@ -68,10 +62,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"15"
 		"zpos"					"1"
-		"wide"					"30"
-		"tall"					"30"				
+		"wide"					"94"
+		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -79,7 +73,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override"	"255 255 255 255"
-	}					
+		"fgcolor_override"	"scoutPrimary"
+		"bgcolor_override"	"scoutPrimaryBG"
+	}			
 }

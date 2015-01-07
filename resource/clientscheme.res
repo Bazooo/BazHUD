@@ -25,58 +25,86 @@ Scheme
 				// General
 					
 					// Crosshairs
-						"crosshairCircle"		"189 195 199 100"		// The circle around the crosshair
-						"crosshairTriggered"	"189 195 199 255"		// The circle when damaging player
-						"longasscrosshair"		"189 195 199 50"		// The crosshair helper the huge plus
+						"crosshairCircle"		"0 0 0 0"				// The circle around the crosshair 		(default: 189 195 199 100)
+						"crosshairTriggered"	"0 0 0 0"				// The circle when damaging player 	(default: 189 195 199 255)
+						"longasscrosshair"		"0 0 0 0"				// The crosshair helper the huge plus 	(default: 189 195 199 50)
 
 					// Rest of the shit
 						"separator"				"189 195 199 255"		// Bar between character and health/ammo
 						"health"				"29 29 29 255"
 						"healthBG"				"189 195 199 100"
-						"healthDanger"			"231 76 60 255"
-						"healthBonus"			"46 204 113 255"
-						"healthStatusBG"		"29 29 29 255"
+						"healthDanger"			"192 57 43 255"		// HP Low Health
+						"healthBonus"			"41 128 185 255"		// HP Overhealed
+						"healthTextDanger"	"189 195 199 255"		// Text Color when low health
+						"healthTextBonus"		"189 195 199 255"		// Text Color when overhealed
 						"healthEarned"			"46 204 113 255"
+						"healthLoss"			"231 76 60 255"
 						"healthGiven"			"46 204 113 255"		// Damage values appearing when shooting someone
 						"healthTaken"			"189 195 199 255"
 						"damage"				"189 195 199 255"		// Damage appearing on hud (not over players)	
 						"damageBG"			"29 29 29 255"
+						"ammoBG"				"29 29 29 255"
 						"ammoClip"			"189 195 199 255"
 						"ammoReserve"		"189 195 199 255"
 						"ammoNoClip"			"189 195 199 255"
 						"ammoLow"			"192 57 43 255"
 						"streak"				"189 195 199 255"
 
+					// HUD objectives
+
+						// Capture the flag
+							"CTFBlu"			"41 128 185 255"
+							"CTFRed"			"192 57 43 255"
+							"CTFText"			"189 195 199 255"
+							"CTFBG"			"23 23 23 255"
+
+						// Payload
+							"PlBG"				"23 23 23 255"		// Bar behind payload
+							"PLBlu"				"52 152 219 255"
+							"PLRed"			"231 76 60 255"
+							"PLText"			"189 195 199 255"
+							"PLBluCap"			"52 152 219 255"
+							"PLRedCap"		"231 76 60 255"
+							"PLBluBlock"		"41 128 185 255"
+							"PLRedBlock"		"192 57 43 255"
+							"PLBluBack"		"142 68 173 255"
+							"PLRedBack"		"230 126 34 255"
+
+
 				// Class Specific
 					// Multiclass
-						"charge"			"39 174 96 255"		// Stickies, Loose Cannon, Bow bar
+						"charge"			"39 174 96 255"		// Stickies, Loose Cannon, Bow
 						"chargeBG"		"0 0 0 0"
 						"criticals"			"189 195 199 255"		// Counter crit manmelter, frontier justice
-						"ItemEffect"		"39 174 96 255"		// Phlog, Soldier, Scout Balls, Heavy's Food, Jarate, Spy's Cloak bar
-						"ItemEffectBG"		"0 0 0 0"
+						"ItemEffect"		"39 174 96 255"		// (Does not work) Phlog, Soldier, Scout Balls, Heavy's Food, Jarate, Spy's Cloak
+						"ItemEffectBG"		"29 29 29 255"				
 					// Scout
-						"scoutPrimary"			"39 174 96 255"	// Baby Face's Blaster, Soda Popper bar
+						"scoutPrimary"			"189 195 199 255"	// Baby Face's Blaster, Soda Popper
 						"scoutPrimaryBG"		"29 29 29 255"
-						"scoutSecondary"		"39 174 96 255"	// Bonk, Crit, Milk bar
+						"scoutSecondary"		"189 195 199 255"	// Bonk, Crit, Milk
 						"scoutSecondaryBG"	"29 29 29 255"
-						"scoutCleaver"			"39 174 96 255"	// Guillotine bar
+						"scoutCleaver"			"189 195 199 255"	// Guillotine
 						"scoutCleaverBG"		"29 29 29 255"
 					// Soldier
-						"soldierPrimary"		"39 174 96 255"	// Cowmangler bar
+						"soldierPrimary"		"189 195 199 255"	// Cowmangler
 						"soldierPrimaryBG"		"29 29 29 255"
-						"soldierSecondary"		"39 174 96 255"	// Bison bar
+						"soldierSecondary"		"189 195 199 255"	// Bison
 						"soldierSecondaryBG"	"29 29 29 255"
 					// Pyro
-						"pyroPhlog"		"39 174 96 255"		// Phlog bar
+						"pyroPhlog"		"189 195 199 255"		// Phlog
 						"pyroPhlogBG"		"0 0 0 0"
 					// Demoman
 						"demoStickies"			"189 195 199 255"	// Sticky counter
-						"demoShield"			"39 174 96 255"	// Shield Charge bar
+						"demoShield"			"189 195 199 255"	// Shield Charge
 						"demoShieldBG"		"29 29 29 255"
 					// Heavy
 					// Engineer
-						"engineerPrimary"			"39 174 96 255"	// Pomson 6000
+						"engineerPrimary"			"189 195 199 255"	// Pomson 6000
 						"engineerPrimaryBG"		"29 29 29 255"
+						"metalText"				"189 195 199 255"
+						"metal"						"189 195 199 255"
+						"metalPos"					"46 204 113 255"
+						"metalNeg"					"231 76 60 255"
 					// Medic
 						"uberPercentage"	"189 195 199 255"
 						"uberBar"			"39 174 96 255"
@@ -88,12 +116,12 @@ Scheme
 						"vac3"				"29 29 29 255"
 						"vac4"				"29 29 29 255"
 					// Sniper
-						"sniperPrimary"		"39 174 96 255"		// Hitman's Heatmaker bar
+						"sniperPrimary"		"39 174 96 255"		// Hitman's Heatmaker
 						"sniperPrimaryBG"		"29 29 29 255"
 						"sniperBazaar"			"189 195 199 255"		// Bazaar Bargain counter
 					// Spy
 						"spyDiamond"			"189 195 199 255"		// Diamondback counter
-						"spyMelee"				"39 174 96 255"		// Spycicle bar
+						"spyMelee"				"39 174 96 255"		// Spycicle
 						"spyMeleeBG"			"29 29 29 255"
 			"dropshadows"	"0 0 0 125"
 			"borderColor"	"255 255 255 75"
@@ -1418,51 +1446,61 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"U.S. 101"
-				"tall"		"26"
+				"name"		"Caviar Dreams"
+				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	"1"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"U.S. 101"
-				"tall"		"26"
+				"name"		"Caviar Dreams"
+				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	"1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"U.S. 101"
-				"tall"		"26"
+				"name"		"Caviar Dreams"
+				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"U.S. 101"
-				"tall"		"26"
+				"name"		"Caviar Dreams"
+				"tall"		"20"
 				"weight"	"900"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+					"antialias"	"1"
+					"additive"	"1""range"		"
+				0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Caviar Dreams"
+				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	"1"
 			}
 		}
 		// this is the symbol font
@@ -2582,6 +2620,28 @@ Scheme
 			}
 		}
 
+		CounterFontSmall
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"20"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		StreakFont
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams"
+				"tall"		"20"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
 		NewFontTiny
 		{
 			"1"
@@ -2738,20 +2798,20 @@ Scheme
 	{
 
 		// BazHUD borders
-		WhiteBorder
+		PLCartBarBorder
 		{
-			"inset"	"2 2 2 2"
+			"inset" "0 0 1 1"
 			Left
 			{
 				"1"
 				{
-					"color" "Black"
-					"offset" "0 0"
+					"color" "PLBorder"
+					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Black"
-					"offset" "0 0"
+					"color" "PLBorder"
+					"offset" "0 2"
 				}
 			}
 
@@ -2759,12 +2819,67 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "PLBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "PLBorder"
+					"offset" "0 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "PLBorder"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "PLBorder"
+					"offset" "0 2"
+				}
+			}
+		}
+
+		PLCartBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "PLBorder"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "PLBorder"
+					"offset" "1 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "PLBorder"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "PLBorder"
 					"offset" "0 0"
 				}
 			}
@@ -2773,12 +2888,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "PLBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "PLBorder"
 					"offset" "0 0"
 				}
 			}
@@ -2787,12 +2902,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "PLBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "PLBorder"
 					"offset" "0 0"
 				}
 			}

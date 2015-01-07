@@ -209,10 +209,8 @@ event HudHealthBonusPulse
 
 	Animate 	HealthValueFreeze					fgcolor 		"142 68 173 175"	linear 0.0 0.0
 	
-	Animate 	HealthStatusBG					Size	"0 60"		Linear 0.0 0.0
-	Animate 	HealthBonusLabel					Size	"0 60"		Linear 0.0 0.0
-	Animate 	HealthStatusBG					Size	"50 60"		Linear 0.0 0.1
-	Animate 	HealthBonusLabel					Size	"50 60"		Linear 0.0 0.1
+	Animate 	BonusBackground					Position 	"110 0"				Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			fgColor 	"healthTextBonus"	Accel 0.0 0.0
 
 	//RunEvent HudHealthBonusPulseLoop	1.2
 }
@@ -228,11 +226,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	//StopEvent HudHealthBonusPulseLoop 0.0
 
-	Animate 	HealthStatusBG					Size	"0 60"		Linear 0.0 0.0
-	Animate 	HealthBonusLabel					Size	"0 60"		Linear 0.0 0.0
-
-	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
-	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
+	Animate 	BonusBackground					Position 	"110 -60"	Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			fgColor 	"health"	Accel 0.0 0.0
 }
 
 //===========================================
@@ -243,10 +238,8 @@ event HudHealthDyingPulse
 	Animate 	HealthValueSpec					fgcolor 		"231 76 60 200" Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"231 76 60 75" Linear 0.3 1.0
 	
-	Animate 	HealthStatusBG					Size	"0 60"		Linear 0.0 0.0
-	Animate 	HealthDangerLabel					Size	"0 60"		Linear 0.0 0.0
-	Animate 	HealthStatusBG					Size	"50 60"		Linear 0.0 0.1
-	Animate 	HealthDangerLabel					Size	"50 60"		Linear 0.0 0.1
+	Animate 	DangerBackground					Position 	"110 0"					Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			fgColor 	"healthTextDanger"	Accel 0.0 0.0
 
 	Animate 	HealthValueFreeze					fgcolor 		"231 76 60 200"	linear 0.0 0.0
 	
@@ -264,8 +257,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	//StopEvent HudHealthDyingPulseLoop 0.0
 
-	Animate 	HealthStatusBG					Size	"0 60"		Linear 0.0 0.0
-	Animate 	HealthDangerLabel					Size	"0 60"		Linear 0.0 0.0
+	Animate 	DangerBackground					Position 	"110 -60"	Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			fgColor 	"health"	Accel 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
 	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
 }
