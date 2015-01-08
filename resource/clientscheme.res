@@ -52,6 +52,32 @@ Scheme
 
 					// HUD objectives
 
+						// Timer
+							
+							// General
+								"time"			"189 195 199 255"
+								"timePos"		"46 204 113 255"
+								"timeNeg"		"192 57 43 255"
+								"timeWait"		"189 195 199 255"
+								"timeOver"		"189 195 199 255"
+								"timeDeath"	"189 195 199 255"
+								"timeSetup"	"189 195 199 255"
+
+							// Stopwatch (competitive)
+								"stopWatch"	"189 195 199 255"
+								"stopBeat"		"189 195 199 255"
+								"stopPoints"	"189 195 199 255"
+								"stopLabel"		"189 195 199 255"
+								"stopDesc"		"189 195 199 255"
+							
+							// King of the Hill
+								"timeBlu"			"52 152 219 255"
+								"timeRed"			"192 57 43 255"
+								"timeCapActive"	"189 195 199 255"
+								"timeCapBlu"		"52 152 219 255"
+								"timeCapRed"		"192 57 43 255"
+
+
 						// Capture the flag
 							"CTFBlu"			"41 128 185 255"
 							"CTFRed"			"192 57 43 255"
@@ -2798,75 +2824,35 @@ Scheme
 	{
 
 		// BazHUD borders
-		PLCartBarBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "PLBorder"
-					"offset" "0 1"
-				}
-				"2"
-				{
-					"color" "PLBorder"
-					"offset" "0 2"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "PLBorder"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "PLBorder"
-					"offset" "0 2"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "PLBorder"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "PLBorder"
-					"offset" "0 2"
-				}
-			}
-		}
-
-		PLCartBorder
+		timeCapBlu
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "PLBorder"
-					"offset" "0 1"
+					"color" "timeCapBlu"
+					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "PLBorder"
-					"offset" "1 1"
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
 				}
 			}
 
@@ -2874,12 +2860,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PLBorder"
+					"color" "timeCapBlu"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "PLBorder"
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapBlu"
 					"offset" "0 0"
 				}
 			}
@@ -2888,12 +2889,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PLBorder"
+					"color" "timeCapBlu"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "PLBorder"
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapBlu"
 					"offset" "0 0"
 				}
 			}
@@ -2902,12 +2918,267 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PLBorder"
+					"color" "timeCapBlu"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "PLBorder"
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapBlu"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		timeCapRed
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapRed"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		timeCapActive
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "timeCapActive"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "timeCapActive"
 					"offset" "0 0"
 				}
 			}

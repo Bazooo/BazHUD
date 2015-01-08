@@ -40,16 +40,14 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-80"
-		"ypos"	"0"
-		"wide"	"160"
-		"tall"	"160"
+		"xpos"	"r285"
+		"ypos"	"r145"
+		"wide"	"260"
+		"tall"	"120"
 		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos"			"0"
 	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos"			"105"
 	}	
 
 	HudItemEffectMeter
@@ -195,9 +193,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"185"
+		"xpos"					"165"
 		"ypos"					"r180"
-		"wide"					"100"
+		"wide"					"120"
 		"tall"  					"200"
 		"zpos"					"1"
 		"visible" 				"1"
@@ -932,8 +930,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"10"
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1102,10 +1099,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-140"
-		"ypos"					"0"
-		"wide"					"230"
-		"tall"					"30"
+		"xpos"					"r185"
+		"ypos"					"r145"
+		"wide"					"160"
+		"tall"					"95"
 	}
 	
 	NotificationPanel

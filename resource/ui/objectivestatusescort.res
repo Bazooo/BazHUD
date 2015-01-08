@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"r285"
-		"ypos"				"r60"
+		"ypos"				"r55"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
@@ -70,76 +70,13 @@
 		"scaleImage"	"1"
 	}
 	
-	"HomeCPIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HomeCPIcon"	
-		"xpos"			"10"		
-		"ypos"			"120"
-		"zpos"			"2"
-		"wide"			"10"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		""
-		"image"			"../hud/cart_home_blue"
-		"scaleImage"	"1"	
-		
-		"if_team_red"
-		{
-			"image"			"../hud/cart_home_red"
-		}
-		
-		"if_single_with_hills_blue"
-		{
-			"image"			"../hud/cart_home_blue_opaque"
-		}		
-		
-		"if_single_with_hills_red"
-		{
-			"image"			"../hud/cart_home_red_opaque"
-		}		
-		
-		"if_multiple_trains"
-		{
-			"xpos"			"59"
-			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
-			"image"			"../hud/cart_track_neutral_opaque"
-		}
-		
-		"if_multiple_trains_top"
-		{
-			"ypos"			"113"
-		}
-		
-		"if_multiple_trains_bottom"
-		{
-			"ypos"			"113"
-		}
-		
-		"if_multiple_trains_red"
-		{
-			"image"			"../hud/cart_home_red_square"
-		}
-		
-		"if_multiple_trains_blue"
-		{
-			"image"			"../hud/cart_home_blue_square"
-		}
-	}
-	
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"			"65"		
 		"ypos"			"6"		
-		"zpos"			"10"
+		"zpos"			"1"
 		"wide"			"9"		
 		"tall"			"9"
 		"autoResize"	"0"
@@ -402,7 +339,7 @@
 			"fieldName"		"Blocked"	
 			"xpos"			"220"
 			"ypos"			"0"
-			"zpos"			"2"
+			"zpos"			"5"
 			"wide"			"40"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -630,6 +567,70 @@
 				"wide"			"30"
 				"tall"			"30"
 			}			
+		}
+		
+		
+		"HomeCPIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HomeCPIcon"	
+			"xpos"			"10"		
+			"ypos"			"120"
+			"zpos"			"2"
+			"wide"			"10"
+			"tall"			"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"labelText"		""
+			"image"			"../hud/cart_home_blue"
+			"scaleImage"	"1"	
+			
+			"if_team_red"
+			{
+				"image"			"../hud/cart_home_red"
+			}
+			
+			"if_single_with_hills_blue"
+			{
+				"image"			"../hud/cart_home_blue_opaque"
+			}		
+			
+			"if_single_with_hills_red"
+			{
+				"image"			"../hud/cart_home_red_opaque"
+			}		
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"59"
+				"zpos"			"5"
+				"wide"			"14"
+				"tall"			"14"
+				"image"			"../hud/cart_track_neutral_opaque"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"113"
+			}
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"113"
+			}
+			
+			"if_multiple_trains_red"
+			{
+				"image"			"../hud/cart_home_red_square"
+			}
+			
+			"if_multiple_trains_blue"
+			{
+				"image"			"../hud/cart_home_blue_square"
+			}
 		}
 	}
 }
