@@ -147,7 +147,7 @@ Scheme
 						"sniperBazaar"			"189 195 199 255"		// Bazaar Bargain counter
 					// Spy
 						"spyDiamond"			"189 195 199 255"		// Diamondback counter
-						"spyMelee"				"39 174 96 255"		// Spycicle
+						"spyMelee"				"189 195 199 255"		// Spycicle
 						"spyMeleeBG"			"29 29 29 255"
 			"dropshadows"	"0 0 0 125"
 			"borderColor"	"255 255 255 75"
