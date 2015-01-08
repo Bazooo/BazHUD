@@ -228,6 +228,7 @@
 	    			echo - Espurr for reminding me of how dumb I am;
 	    			echo - Bagel for bringing his canadian support all over me;
 	    			echo - Sun for praising the HUD~;
+					echo - waterandroid for doing stuff;
 	    			echo;
 	    			echo ---------------------------------------------------------------;
 	     "
