@@ -2,9 +2,9 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"50"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"-50"
+		"delta_item_y"			"5"
+		"delta_item_start_x"	"50"
+		"delta_item_end_x"		"75"
 		"PositiveColor"			"metalPos"
 		"NegativeColor"		"metalNeg"
 		"delta_lifetime"		"1.5"
@@ -54,7 +54,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"175"
+		"wide"			"50"
 		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -68,28 +68,5 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"metal"
 		"font"			"CounterFont"
-	}
-
-	"MetalBorder"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AccountValueDS"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"75"
-		"tall"			"35"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"textinsetx"		"10"
-		"labelText"		"Metal"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor_override"	"metalText"
-		"font"			"NewFontMedium"
 	}
 }

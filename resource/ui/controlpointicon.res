@@ -12,6 +12,30 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+
+	"CPBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"CPBorder"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"25"
+		"tall"			"25"
+		"border"		"CPBorder"
+	}
+
+	"CPBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"CPBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"25"
+		"tall"			"25"
+		"fillcolor"		"CPBG"
+	}
 	
 	"Countdown"
 	{
@@ -59,6 +83,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor"		"CPText"
 	}
 
 	"OverlayImage"
@@ -93,6 +118,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"NewCounterFontMedium"
+		"fgcolor"		"CPText"
 	}
 				
 	"CPTimerBG"

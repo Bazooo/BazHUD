@@ -11,34 +11,34 @@
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"400"
+		"team1_player_base_y"				"420"
 		"team1_player_delta_x"				"32"
 		"team1_player_delta_y"				"0"
 		
-		"team2_player_base_offset_x"		"395"
-		"team2_player_base_y"				"400"
-		"team2_player_delta_x"				"-32"
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"355"
+		"team2_player_delta_x"				"32"
 		"team2_player_delta_y"				"0"
 
 			"team1_player_base_offset_x_minmode"		"0"
-			"team1_player_base_y_minmode"				"216"
-			"team1_player_delta_x_minmode"				"0"
-			"team1_player_delta_y_minmode"				"-20"
+			"team1_player_base_y_minmode"				"410"
+			"team1_player_delta_x_minmode"				"55"
+			"team1_player_delta_y_minmode"				"0"
 			
-			"team2_player_base_offset_x_minmode"		"0"
-			"team2_player_base_y_minmode"				"244"
-			"team2_player_delta_x_minmode"				"0"
-			"team2_player_delta_y_minmode"				"20"
+			"team2_player_base_offset_x_minmode"		"375"
+			"team2_player_base_y_minmode"				"410"
+			"team2_player_delta_x_minmode"				"-55"
+			"team2_player_delta_y_minmode"				"0"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"30"
-			"tall"			"80"
+			"tall"			"60"
 			"zpos"			"1"
 
-			"wide_minmode"	"210"
-			"tall_minmode"			"23"
+			"wide_minmode"	"50"
+			"tall_minmode"		"70"
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
@@ -47,16 +47,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"NewFontSmall"
-				"xpos"			"55"
-				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"100"
-				"tall"			"20"
+				"font"			"NewFontTiny"
+				"xpos"			"0"
+				"ypos"			"5"
+				"zpos"			"15"
+				"wide"			"45"
+				"tall"			"40"
 				"autoResize"	"0"
-				"pinCorner"		"0"
+				"textinsetx"		"5"
+				"pinCorner"	"0"
 				"visible"		"0"
 				"visible_minmode"	"1"
+				"centerwrap"			"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"255 255 255 255"
@@ -77,7 +79,7 @@
 				"fieldName"		"classimage"
 				"xpos"			"5"
 				"ypos"			"3"
-				"zpos"			"2"
+				"zpos"			"10"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"1"
@@ -85,8 +87,10 @@
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"
 
-				"xpos_minmode"			"30"
+				"xpos_minmode"			"5"
 				"ypos_minmode"			"0"
+				"wide_minmode"			"40"
+				"tall_minmode"				"40"
 				
 				if_mvm
 				{
@@ -98,81 +102,26 @@
 				}
 			}
 
-			"leftBorder"
+			"border"
 			{
 				"ControlName"		"ImagePanel"
-				"fieldName"		"leftBorder"
+				"fieldName"		"border"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"3"
-				"tall"			"100"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"0 0 0 255"
+				"zpos"			"6"
+				"wide"			"30"
+				"tall"			"60"
+				"border"		"tournyBorder"
 
-				"wide_minmode"		"30"
-				"tall_minmode"			"30"
-				"fillcolor_minmode"		"255 255 255 255"
-			}
-
-			"rightBorder"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"rightBorder"
-				"xpos"			"28"
-				"xpos_hidef"			"27"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"100"
-				"tall"			"80"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"0 0 0 255"
-
-				"xpos_minmode"			"160"
-			}
-
-			"topBorder"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"topBorder"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"200"
-				"tall"			"58"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"0 0 0 255"
-
-				"tall_minmode"	"3"
-			}
-
-			"bottomBorder"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"bottomBorder"
-				"xpos"			"0"
-				"ypos"			"60"
-				"zpos"			"5"
-				"wide"			"200"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"255 255 255 255"
-
-				"ypos_minmode"			"20"
-				"tall_minmode"			"3"
-				"zpos_minmode"			"2"
-				"fillcolor_minmode"		"0 0 0 255"
+				"wide_minmode"	"50"
+				"tall_minmode"		"70"
 			}
 
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
+				"xpos"			"10"
 				"ypos"			"4"
 				"zpos"			"2"
 				"wide"			"20"
@@ -181,11 +130,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
@@ -193,10 +137,10 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"0"
-				"ypos"				"45"
-				"zpos"				"3"
+				"ypos"				"25"
+				"zpos"				"5"
 				"wide"				"30"
-				"tall"				"20"
+				"tall"				"15"
 				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
@@ -205,10 +149,10 @@
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 
-				"xpos_minmode"	"165"
-				"ypos_minmode"	"-2"
-				"wide_minmode"		"40"
-				"tall_minmode"		"30"
+				"xpos_minmode"	"0"
+				"ypos_minmode"	"40"
+				"wide_minmode"	"50"
+				"tall_minmode"		"15"
 			}
 			
 			"ReadyBG"
@@ -267,19 +211,20 @@
 				"font"			"NewFontSmall"
 				"xpos"				"0"
 				"ypos"				"25"
-				"zpos"				"3"
+				"zpos"				"10"
 				"wide"				"30"
-				"tall"				"20"
+				"tall"				"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"north"
-				"fgcolor"		"255 255 255 25"
+				"textAlignment"	"center"
+				"fgcolor"		"tournyRespawn"
 
-				"xpos_minmode"			"165"
-				"ypos_minmode"			"-2"
-				"tall_minmode"			"30"
+				"xpos_minmode"		"0"
+				"ypos_minmode"		"40"
+				"wide_minmode"		"50"
+				"tall_minmode"			"15"
 				"textAlignment_minmode"	"center"
 				
 				if_mvm
@@ -294,7 +239,7 @@
 				"fieldName"		"chargeamount"
 				"font"			"NewFontSmall"
 				"xpos"			"0"
-				"ypos"			"60"
+				"ypos"			"40"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"20"
@@ -303,9 +248,13 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor"		"0 0 0 255"
+				"fgcolor"		"tournyUber"
+				"bgcolor_override"	"tournyUberBG"
 
-				"ypos_minmode"	"0"
+				"xpos_minmode"	"0"
+				"ypos_minmode"	"55"
+				"wide_minmode"	"50"
+				"tall_minmode"		"15"
 			}
 			
 			"specindex"
@@ -321,7 +270,6 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"visible_minmode"	"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"south"
 				"fgcolor"		"255 255 255 20"

@@ -181,7 +181,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"			"CHudAccountPanel"
-		"xpos"					"110"
+		"xpos"					"235"
 		"ypos"					"r145"
 		"wide"					"175"
 		"tall"  					"100"
@@ -193,10 +193,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"165"
-		"ypos"					"r180"
-		"wide"					"120"
-		"tall"  					"200"
+		"xpos"					"110"
+		"ypos"					"r110"
+		"wide"					"175"
+		"tall"  					"60"
 		"zpos"					"1"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -1013,7 +1013,7 @@
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"

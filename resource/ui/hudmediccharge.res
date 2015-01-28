@@ -21,10 +21,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"0"
+		"xpos"			"105"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"170"
+		"wide"			"70"
 		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"	"2"
@@ -33,9 +33,11 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"east"
+		"textinsetx"			"5"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor"		"uberPercentage"
+		"bgcolor_override"		"uberIdleBG"
 		"font"			"CounterFont"
 	}
 
@@ -43,10 +45,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"0"
+		"xpos"			"140"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"170"
+		"wide"			"35"
 		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"	"2"
@@ -55,38 +57,12 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"east"
+		"textinsetx"			"5"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"uberPercentage"
+		"bgcolor_override"		"uberIdleBG"
 		"font"			"CounterFont"
-	}
-
-	"UberFullBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"UberFullBG"
-		"xpos"			"175"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"35"
-		"fillcolor"		"uberFullBG"
-	}
-	"UberFullLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"UberFullLabel"
-		"xpos"			"175"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"O"
-		"textAlignment"	"center"	
-		"font"			"CounterFont"
-		"fgcolor"		"uberFull"
 	}
 	
 	"ChargeMeter"

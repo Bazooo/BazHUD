@@ -209,8 +209,8 @@ event HudHealthBonusPulse
 
 	Animate 	HealthValueFreeze					fgcolor 		"142 68 173 175"	linear 0.0 0.0
 	
-	Animate 	BonusBackground					Position 	"110 0"				Accel 0.0 0.0
 	Animate 	PlayerStatusHealthValue			fgColor 	"healthTextBonus"	Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBonus"		Accel 0.0 0.0
 
 	//RunEvent HudHealthBonusPulseLoop	1.2
 }
@@ -226,8 +226,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	//StopEvent HudHealthBonusPulseLoop 0.0
 
-	Animate 	BonusBackground					Position 	"110 -60"	Accel 0.0 0.0
 	Animate 	PlayerStatusHealthValue			fgColor 	"health"	Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBG"		Accel 0.0 0.0
 }
 
 //===========================================
@@ -237,9 +237,9 @@ event HudHealthDyingPulse
 {	
 	Animate 	HealthValueSpec					fgcolor 		"231 76 60 200" Linear 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"231 76 60 75" Linear 0.3 1.0
-	
-	Animate 	DangerBackground					Position 	"110 0"					Accel 0.0 0.0
+
 	Animate 	PlayerStatusHealthValue			fgColor 	"healthTextDanger"	Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthDanger"		Accel 0.0 0.0
 
 	Animate 	HealthValueFreeze					fgcolor 		"231 76 60 200"	linear 0.0 0.0
 	
@@ -257,8 +257,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	//StopEvent HudHealthDyingPulseLoop 0.0
 
-	Animate 	DangerBackground					Position 	"110 -60"	Accel 0.0 0.0
 	Animate 	PlayerStatusHealthValue			fgColor 	"health"	Accel 0.0 0.0
+	Animate 	PlayerStatusHealthValue			bgColor 	"healthBG"		Accel 0.0 0.0
 	Animate 	HealthValueSpec					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
 	Animate 	HealthValueFreeze					fgcolor 		"255 255 255 75"	Linear 0.0 0.0
 }
@@ -440,10 +440,12 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate 	UberFullBG						Size	"0 35"		Linear 0.0 0.0
-	Animate 	UberFullLabel					Size	"0 35"		Linear 0.0 0.0
-	Animate 	UberFullBG						Size	"50 35"		Linear 0.0 0.1
-	Animate 	UberFullLabel					Size	"50 35"		Linear 0.0 0.1
+	Animate 	ChargeLabel					Position	"175 0"			Linear 0.0 0.2
+	Animate 	ChargeLabel					FgColor		"uberFull"		Linear 0.0 0.2
+	Animate 	ChargeLabel					BgColor	"uberFullBG"	Linear 0.0 0.0
+	Animate 	IndividualChargesLabel			Position	"175 0"			Linear 0.0 0.2
+	Animate 	IndividualChargesLabel			FgColor		"uberFull"		Linear 0.0 0.2
+	Animate 	IndividualChargesLabel			BgColor	"uberFullBG"	Linear 0.0 0.0
 
 	//RunEvent HudMedicChargedLoop	1.2
 }
@@ -458,9 +460,13 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
 	//StopEvent HudMedicChargedLoop 0.0
-
-	Animate 	UberFullBG						Size	"0 35"		Linear 0.0 0.0
-	Animate 	UberFullLabel					Size	"0 35"		Linear 0.0 0.0
+	
+	Animate 	ChargeLabel					Position	"105 0"				Linear 0.0 0.2
+	Animate 	ChargeLabel					FgColor		"uberPercentage"	Linear 0.0 0.2
+	Animate 	ChargeLabel					BgColor	"uberIdleBG"		Linear 0.2 0.0
+	Animate 	IndividualChargesLabel			Position	"140 0"				Linear 0.0 0.2
+	Animate 	IndividualChargesLabel			FgColor		"uberPercentage"	Linear 0.0 0.2
+	Animate 	IndividualChargesLabel			BgColor	"uberIdleBG"		Linear 0.2 0.0
 }
 
 //====================================

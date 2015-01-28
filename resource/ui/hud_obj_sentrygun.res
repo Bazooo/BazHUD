@@ -193,6 +193,7 @@
 			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background_tall"
+			"fillcolor"		"23 23 23 255"
 		}
 		
 		"WrenchIcon"
