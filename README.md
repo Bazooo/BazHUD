@@ -3,7 +3,7 @@ BazHUD
 
 My custom hud
 
-To make the Quicklinks work and toggle console add this to your autoexec.cfg
+To make the Quicklinks work, add this to your autoexec.cfg
 
 alias QuickServer1  "connect [ServerIP]"
 
