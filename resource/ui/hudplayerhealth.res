@@ -1,5 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
-{	
+{
 	// player health data
 	"HudPlayerHealth"
 	{
@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"80"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -28,7 +28,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"healthDanger"
-	}	
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -40,7 +40,7 @@
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,7 +53,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"0"	
+		"scaleImage"	"0"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"font"			"HealthFont"
 		"fgcolor_override"		"health"
 		"bgcolor_override"		"healthBG"
@@ -84,10 +84,10 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"0 0 0 255"
-	}		
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -99,7 +99,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
@@ -114,7 +114,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
@@ -129,7 +129,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
@@ -144,7 +144,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -159,7 +159,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -174,7 +174,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -190,7 +190,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -205,7 +205,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -220,11 +220,11 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-	
+
 
 	"PlayerStatus_WheelOfDoom"
 	{
@@ -237,7 +237,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
@@ -253,7 +253,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -269,7 +269,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -285,7 +285,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
@@ -300,7 +300,7 @@
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			""
 		"fgcolor"		"TanDark"
 	}

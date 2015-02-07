@@ -50,6 +50,14 @@ Scheme
 						"ammoLow"						"192 57 43 255"
 						"streak"						"189 195 199 255"
 
+					// Killfeed
+						"killfeedBlue"		"3 169 244 255"
+						"killfeedRed"			"244 67 54 255"
+						"killfeedIcon"		"236 240 241 255"
+						"killfeedNeutral"	"29 29 29 255"
+						"killfeedOtherBG"		"0 0 0 0"
+						"killfeedPlayerBG"	"255 255 255 255"
+
 					// Spectator / Dead
 						"respawnText"				"189 195 199 255"
 						"respawnBorder"			"189 195 199 255"
@@ -146,6 +154,26 @@ Scheme
 						"metal"								"189 195 199 255"
 						"metalPos"						"46 204 113 255"
 						"metalNeg"						"231 76 60 255"
+						// Buildings
+							// Sentry
+								"sentryLvl1"				"29 29 29 255"
+								"sentryLvl2"				"29 29 29 255"
+								"sentryLvl3"				"29 29 29 255"
+								"sentryNotBuiltBG"	"255 255 255 0"
+								"sentrySapped"			"29 29 29 255"
+								"sentryHealthBG"		"52 73 94 255"
+								"sentryBuildingFG"	"255 255 255 100"
+								"sentryBuildingBG"	"255 255 255 25"
+								"sentryRunningBG"		"255 255 255 100"
+								"sentryKills"				"29 29 29 255"
+								"sentryAmmoBG"			"39 174 96 255"
+								"sentryRocketBG"		"22 160 133 255"
+								"sentryUpgradeFG"		"52 152 219 255"
+								"sentryUpgradeBG"		"52 73 94 255"
+
+							// Dispenser
+							// Teleporter In
+							// Teleporter Out
 					// Medic
 						"uberPercentage"	"189 195 199 255"
 						"uberBar"					"39 174 96 255"
@@ -167,10 +195,64 @@ Scheme
 						"spyMeleeBG"			"29 29 29 255"
 
 			// Menu colors
+				// Main Menu
+					"textColor"					"236 240 241 255"
+					"textHover"					"46 204 113 255"
+					"quitHover"					"231 76 60 255"
+					"motdBG"						"211 84 0 255"
+					"motdBGActive"			"230 126 34 255"
+					"motdText"					"0 0 0 255"
+					"motd"							"236 240 241 255"
+					"motdScroll"				"189 195 199 255"
+					"motdScrollArrows"	"29 29 29 255"
+					"playBG"						"155 89 182 255"
+					"playText"					"0 0 0 255"
+					"playTextHover"			"155 89 182 255"
+					"play"							"236 240 241 255"
+					"iconColor"					"29 29 29 255"
+					"iconHover"					"46 204 113 255"
+					"tooltipBG"					"29 29 29 255"
+					"tooltipText"				"46 204 113 255"
+
+				// Secondary Colors
+
+						"secondaryBarBG"		"236 240 241 255"
+
+							// QuickServers
+								"quickServer1"	"26 188 156 255"
+								"quickServer2"	"46 204 113 255"
+								"quickServer3"	"52 152 219 255"
+								"quickServer4"	"155 89 182 255"
+								"quickServer5"	"52 73 94 255"
+								"quickServer6"	"241 196 15 255"
+								"quickServer7"	"230 126 34 255"
+								"quickServer8"	"231 76 60 255"
+								"quickServer9"	"149 165 166 255"
+
+					// Main Menu Only
+						"otherBorder"			"26 188 156 255"
+						"other"						"236 240 241 255"
+						"otherIconColor"	"29 29 29 255"
+						"otherIconHover"	"26 188 156 255"
+
+					// In-game Only
+						"resumeBG"				"0 0 0 10"
+
+					// Alerts / Notifications
+						"alertBG"						"41 128 185 255"
+						"alertBGActive"			"52 152 219 255"
+						"alertBlink"				"236 240 241 255"
+						"alertButton"				"52 73 94 255"
+						"alertButtonHover"	"44 62 80 255"
+						"alertButtonText"		"52 152 219 255"
+						"alertBorder"				"52 152 219 255"
+						"alertBorderHover"	"41 128 185 255"
+						"alertsBG"					"52 152 219 255"
+						"alertsBGHover"			"0 0 0 25"
+						"alertText"					"236 240 241 255"
 
 				// General colors
-
-					"newBlack"			"23 23 23 255"
+					"newBlack"			"29 29 29 255"
 					"newWhite"			"189 195 199 255"
 					"newBlackTrans"	"23 23 23 200"
 					"newWhiteTrans"	"189 195 199 200"
@@ -2559,7 +2641,7 @@ Scheme
 			}
 		}
 
-		ControllerHintText
+		"ControllerHintText"
 		{
 			"1"
 			{
@@ -2572,7 +2654,7 @@ Scheme
 			}
 		}
 
-		CrosshairFont
+		"CrosshairFont"
 		{
 			"1"
 			{
@@ -2583,7 +2665,7 @@ Scheme
 			}
 		}
 
-		NewMenuFontSmall
+		"NewMenuFontSmall"
 		{
 			"1"
 			{
@@ -2594,7 +2676,7 @@ Scheme
 			}
 		}
 
-		NewMenuFontDefault
+		"NewMenuFontDefault"
 		{
 			"1"
 			{
@@ -2605,7 +2687,7 @@ Scheme
 			}
 		}
 
-		HealthFont
+		"HealthFont"
 		{
 			"1"
 			{
@@ -2616,7 +2698,7 @@ Scheme
 			}
 		}
 
-		AmmoClipFont
+		"AmmoClipFont"
 		{
 			"1"
 			{
@@ -2627,7 +2709,7 @@ Scheme
 			}
 		}
 
-		AmmoReserveFont
+		"AmmoReserveFont"
 		{
 			"1"
 			{
@@ -2638,7 +2720,7 @@ Scheme
 			}
 		}
 
-		AmmoNoClipFont
+		"AmmoNoClipFont"
 		{
 			"1"
 			{
@@ -2649,7 +2731,7 @@ Scheme
 			}
 		}
 
-		CritsFont
+		"CritsFont"
 		{
 			"1"
 			{
@@ -2660,7 +2742,7 @@ Scheme
 			}
 		}
 
-		CounterFont
+		"CounterFont"
 		{
 			"1"
 			{
@@ -2671,7 +2753,7 @@ Scheme
 			}
 		}
 
-		CounterFontSmall
+		"CounterFontSmall"
 		{
 			"1"
 			{
@@ -2682,7 +2764,7 @@ Scheme
 			}
 		}
 
-		StreakFont
+		"StreakFont"
 		{
 			"1"
 			{
@@ -2693,7 +2775,7 @@ Scheme
 			}
 		}
 
-		NewFontTiny
+		"NewFontTiny"
 		{
 			"1"
 			{
@@ -2704,7 +2786,7 @@ Scheme
 			}
 		}
 
-		NewFontSmall
+		"NewFontSmall"
 		{
 			"1"
 			{
@@ -2715,7 +2797,7 @@ Scheme
 			}
 		}
 
-		NewFontMedium
+		"NewFontMedium"
 		{
 			"1"
 			{
@@ -2726,7 +2808,7 @@ Scheme
 			}
 		}
 
-		NewFontBig
+		"NewFontBig"
 		{
 			"1"
 			{
@@ -2737,7 +2819,7 @@ Scheme
 			}
 		}
 
-		NewFontHuge
+		"NewFontHuge"
 		{
 			"1"
 			{
@@ -2748,7 +2830,7 @@ Scheme
 			}
 		}
 
-		NewCounterFontSmall
+		"NewCounterFontSmall"
 		{
 			"1"
 			{
@@ -2759,7 +2841,7 @@ Scheme
 			}
 		}
 
-		NewCounterFontMedium
+		"NewCounterFontMedium"
 		{
 			"1"
 			{
@@ -2770,7 +2852,7 @@ Scheme
 			}
 		}
 
-		NewCounterFontBig
+		"NewCounterFontBig"
 		{
 			"1"
 			{
@@ -2781,7 +2863,7 @@ Scheme
 			}
 		}
 
-		NewCounterFontHuge
+		"NewCounterFontHuge"
 		{
 			"1"
 			{
@@ -2792,7 +2874,7 @@ Scheme
 			}
 		}
 
-		NewCounterFontGigantic
+		"NewCounterFontGigantic"
 		{
 			"1"
 			{
@@ -2803,7 +2885,7 @@ Scheme
 			}
 		}
 
-		NewTimeMediumFont
+		"NewTimeMediumFont"
 		{
 			"1"
 			{
@@ -2814,7 +2896,7 @@ Scheme
 			}
 		}
 
-		BazIcons
+		"BazIcons"
 		{
 			"1"
 			{
@@ -2825,7 +2907,7 @@ Scheme
 			}
 		}
 
-		BazIconsClass
+		"BazIconsClass"
 		{
 			"1"
 			{
@@ -2836,9 +2918,18 @@ Scheme
 			}
 		}
 
-	}
+		"MenuIcons"
+		{
+			"1"
+			{
+				"name"		"BazHUD_icons"
+				"tall"		"13"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
 
-	// BazHUD fonts
+	}
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -3545,6 +3636,206 @@ Scheme
 				{
 					"color" "CPBorder"
 					"offset" "0 0"
+				}
+			}
+		}
+
+		AlertBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"3"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"4"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"5"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"6"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"7"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"8"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"9"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+
+				"10"
+				{
+					"color"	"alertBorder"
+					"offset"	"0 0"
+				}
+			}
+		}
+
+		AlertBorderHover
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"3"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"4"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"5"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"6"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"7"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"8"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"9"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+
+				"10"
+				{
+					"color"	"alertBorderHover"
+					"offset"	"0 0"
+				}
+			}
+		}
+
+		OtherBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"3"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"4"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"5"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+				"6"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"7"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"8"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"9"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+
+				"10"
+				{
+					"color"	"otherBorder"
+					"offset"	"0 0"
 				}
 			}
 		}

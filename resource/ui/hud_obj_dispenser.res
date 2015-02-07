@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -26,11 +26,11 @@
 		"tall"			"31"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Dispenser"
 	{
 		"ControlName"	"CIconPanel"
@@ -41,11 +41,11 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_dispenser"
 		"iconColor"		"0 0 0 255"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -87,11 +87,11 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"fillcolor"		"255 255 255 25"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -101,7 +101,7 @@
 		"wide"			"160"
 		"tall"			"40"
 		"visible"		"0"
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -113,7 +113,7 @@
 			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
@@ -129,7 +129,7 @@
 			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"0 0 0 255"
 		}
@@ -145,7 +145,7 @@
 			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"0 0 0 255"
 		}
@@ -161,7 +161,7 @@
 			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"0 0 0 255"
 		}
@@ -175,7 +175,7 @@
 			"wide"			"30"
 			"tall"			"30"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -190,13 +190,13 @@
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"scaleImage"	"0"	
+			"scaleImage"	"0"
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
 		}
 
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -243,16 +243,16 @@
 				"brighttext"	"0"
 				"fgcolor"		"mainWhite"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"2"
 				"ypos"			"0"
 				"wide"			"30"
-				"tall"			"30"				
+				"tall"			"30"
 				"autoResize"	"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -263,7 +263,7 @@
 				"bgcolor_override"	"255 255 255 25"
 			}
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -285,11 +285,11 @@
 				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"fillcolor"		"255 255 255 125"
 			}
-			
-			"AmmoIcon"	
+
+			"AmmoIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"AmmoIcon"
@@ -306,7 +306,7 @@
 			}
 
 			"Ammo"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Ammo"
 				"font"			"Default"
@@ -322,8 +322,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"	"155 89 182 255"
-			}	
-			
+			}
+
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"
@@ -335,13 +335,13 @@
 				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
 			}
-			
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"

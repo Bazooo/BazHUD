@@ -2,63 +2,49 @@
 {
 	"ResumeGameButton"
 	{
-		"label"			"Resume"
+		"label"			""
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"NewResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
+		"tooltip"		"Resume Game"
 	}
 	"QuickplayButton"
 	{
-		"label" "Quickplay" 
+		"label" "Play"
 		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"NewQuickplayButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "Quickplay" 
+		"label" "Quickplay"
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "#TF_MvM_HeaderMannVsMachine" 
+		"label" "Co-op"
 		"command" "playpve"
-		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
+		"label" "Servers"
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
-	} 
+	}
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "#MMenu_ChangeServer"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#MMenu_Replays"
+		"label" "5"
 		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		"tooltip"	"Replays"
+		"OnlyAtMenu" "1"
 	}
 	"SteamWorkshopButton"
 	{
@@ -75,25 +61,26 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#MMenu_Tooltip_Training"
+		"label" "4"
 		"command" "offlinepractice"
-		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
+		"tooltip"		"Training"
 	}
 
-	// These buttons get positioned by the MainMenuOverride.res	
+	// These buttons get positioned by the MainMenuOverride.res
 	"CreateServerButton"
 	{
-		"label" "Create Server"
+		"label" "3"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
+		"tooltip"		"Create Server"
 	}
 	"GeneralStoreButton"
 	{
 		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
-	}	
+	}
 	"CharacterSetupButton"
 	{
 		"label" "Backpack"
@@ -105,118 +92,117 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"Call Vote"
+		"label"			"9"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" ""
+		"tooltip" "Call Vote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute"
+		"label"			"-"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" ""
+		"tooltip" "Mute Players"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Coach"
+		"label"			"0"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" ""
+		"tooltip" "Request Coach"
 	}
 
 	//CUSTOM BUTTONS
 
 	"ToggleConsoleButton"
 	{
-	    "label" "Console"
+	    "label" "8"
 	    "command"   "engine toggleconsole"
+			"tooltip"	"Console"
 	}
 
 	"QuickServer1"
 	{
-	    "label" "1"
+			"label" ""
 	    "command"   "engine QuickServer1"
 	    "tooltip"	"Server One"
 	}
 
 	"QuickServer2"
 	{
-	    "label" "2"
+			"label" ""
 	    "command"   "engine QuickServer2"
 	    "tooltip"	"Server Two"
 	}
 
 	"QuickServer3"
 	{
-	    "label" "3"
+			"label" ""
 	    "command"   "engine QuickServer3"
 	    "tooltip"	"Server Three"
 	}
 
 	"QuickServer4"
 	{
-	    "label" "4"
+			"label" ""
 	    "command"   "engine QuickServer4"
 	    "tooltip"	"Server Four"
 	}
 
 	"QuickServer5"
 	{
-	    "label" "5"
+			"label" ""
 	    "command"   "engine QuickServer5"
 	    "tooltip"	"Server Five"
 	}
 
 	"QuickServer6"
 	{
-	    "label" "6"
+			"label" ""
 	    "command"   "engine QuickServer6"
 	    "tooltip"	"Server Six"
 	}
 
 	"QuickServer7"
 	{
-	    "label" "7"
+			"label" ""
 	    "command"   "engine QuickServer7"
 	    "tooltip"	"Server Seven"
 	}
-	
+
 	"QuickServer8"
 	{
-	    "label" "8"
+			"label" ""
 	    "command"   "engine QuickServer8"
 	    "tooltip"	"Server Eight"
 	}
-	
+
+	"QuickServer9"
+	{
+			"label" ""
+			"command"   "engine QuickServer9"
+			"tooltip"	"Server Nine"
+	}
+
 	"ChangeScoreBoard"
 	{
-	    "label" "X"
+	    "label" "1"
 	    "command"   "engine toggle cl_hud_minmode"
 	    "tooltip"	"Change scoreboard"
 	}
 
-	"NewQuitButton"
-	{
-		"label"	"#TF_Quit_Title"
-		"command"	"engine replay_confirmquit"
-		"OnlyAtMenu"	"1"
-	}
-
 	"DemoUIButton"
 	{
-	    "label" ">"
+	    "label" "2"
 	    "command" "engine demoui; demoui2"
 	    "tooltip"	"DemoUI"
+			"OnlyAtMenu"	"1"
 	}
 
 	"hudCredits"
 	{
-	   "label" "^-^"
-	    "command" 
+	   "label" "BazHUD"
+	   "command"
 	    "
 	    			engine showconsole;clear;
 	    			echo ---------------------------------------------------------------;
@@ -228,11 +214,11 @@
 	    			echo - Espurr for reminding me of how dumb I am;
 	    			echo - Bagel for bringing his canadian support all over me;
 	    			echo - Sun for praising the HUD~;
-					echo - waterandroid for doing stuff;
+						echo - waterandroid for doing stuff;
 	    			echo;
 	    			echo ---------------------------------------------------------------;
 	     "
 	    "tooltip"	"Special Thanks!"
 	}
-	
+
 }

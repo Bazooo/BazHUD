@@ -10,8 +10,8 @@
 		"ypos"			"0"
 		"wide"	 		"300"
 		"tall"	 		"150"
-		"PaintBackgroundType"	"1"
 		"border"		"NoBorder"
+		"PaintBackgroundType"	"0"
 	}
 
 	ChatInputLine
@@ -44,7 +44,8 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Default"		"0"		
+		"Default"		"0"
+		"PaintBackgroundType"	"0"
 	}
 
 	"HudChatHistory"
@@ -63,5 +64,6 @@
 		"labelText"		""
 		"textAlignment"	"south-west"
 		"maxchars"		"-1"
+		"PaintBackgroundType"	"0"
 	}
 }
