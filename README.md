@@ -20,3 +20,5 @@ alias QuickServer6  "connect [ServerIP]"
 alias QuickServer7  "connect [ServerIP]"
 
 alias QuickServer8  "connect [ServerIP]"
+
+alias QuickServer9  "connect [ServerIP]"
