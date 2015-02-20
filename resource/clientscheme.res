@@ -33,8 +33,8 @@ Scheme
 						"separator"					"189 195 199 255"		// Bar between character and health/ammo
 						"health"						"29 29 29 255"
 						"healthBG"					"189 195 199 100"
-						"healthDanger"			"192 57 43 255"		// HP Low Health
-						"healthBonus"				"41 128 185 255"		// HP Overhealed
+						"healthDanger"			"231 76 60 255"		// HP Low Health
+						"healthBonus"				"52 152 219 255"		// HP Overhealed
 						"healthTextDanger"	"189 195 199 255"		// Text Color when low health
 						"healthTextBonus"		"189 195 199 255"		// Text Color when overhealed
 						"healthEarned"			"46 204 113 255"
@@ -50,25 +50,51 @@ Scheme
 						"ammoLow"						"192 57 43 255"
 						"streak"						"189 195 199 255"
 
+					// TargetID
+						"targetIDName"		"189 195 199 255"
+						"targetIDNameBG"	"0 0 0 100"
+						"targetIDInfo"		"189 195 199 255"
+						"targetIDInfoBG"	"0 0 0 100"
+						"targetIDHealth"	"236 240 241 255"
+						"targetIDHealthBG"	"0 0 0 100"
+						"targetIDDanger"	"231 76 60 255"
+						"targetIDBonus"		"52 152 219 255"
+
 					// Killfeed
 						"killfeedBlue"		"3 169 244 255"
 						"killfeedRed"			"244 67 54 255"
 						"killfeedIcon"		"236 240 241 255"
 						"killfeedNeutral"	"29 29 29 255"
 						"killfeedOtherBG"		"0 0 0 0"
-						"killfeedPlayerBG"	"255 255 255 255"
+						"killfeedPlayerBG"	"255 255 255 150"
 
 					// Spectator / Dead
-						"respawnText"				"189 195 199 255"
-						"respawnBorder"			"189 195 199 255"
+						"respawnText"				"236 240 241 255"
+						"respawnBG"					"0 0 0 100"
 
 					// Tournament mode
 						"tournyBG"					"189 195 199 255"
 						"tournyRespawn"			"243 156 18 255"
 						"tournyUber"				"22 160 133 255"
 						"tournyUberBG"			"189 195 199 255"
-						"tournyPlayer"			"23 23 23 255"
+						"tournyPlayer"			"29 29 29 255"
 
+						// Setup
+							"tournySetupBG"		"29 29 29 255"
+							"tournySetupText"	"236 240 241 255"
+							"tournySetupInfo"	"189 195 199 255"
+							"tournyBlu"				"52 152 219 255"
+							"tournyBluBG"			"41 128 185 255"
+							"tournyRed"				"231 76 60 255"
+							"tournyRedBG"			"192 57 43 255"
+							"tournyStateBorder"	"44 62 80 255"
+
+							// Team State / Name
+								"tournyStateBG"			"44 62 80 255"
+								"tournyStateText"		"236 240 241 255"
+								"tournyStateTextBG"	"52 73 94 255"
+								"tournyStateReady"	"46 204 113 255"
+								"tournyStateNReady"	"231 76 60 255"
 
 					// HUD objectives
 
@@ -101,10 +127,10 @@ Scheme
 							"CTFBlu"					"41 128 185 255"
 							"CTFRed"					"192 57 43 255"
 							"CTFText"					"189 195 199 255"
-							"CTFBG"						"23 23 23 255"
+							"CTFBG"						"29 29 29 255"
 
 						// Payload
-							"PlBG"						"23 23 23 255"		// Bar behind payload
+							"PlBG"						"29 29 29 255"		// Bar behind payload
 							"PLBlu"						"52 152 219 255"
 							"PLRed"						"231 76 60 255"
 							"PLText"					"189 195 199 255"
@@ -117,8 +143,8 @@ Scheme
 
 						// Control Points
 							"CPText"					"189 195 199 255"
-							"CPBorder"				"23 23 23 255"
-							"CPBG"						"23 23 23 255"
+							"CPBorder"				"29 29 29 255"
+							"CPBG"						"29 29 29 255"
 
 				// Class Specific
 					// Multiclass
@@ -193,6 +219,12 @@ Scheme
 						"spyDiamond"			"189 195 199 255"		// Diamondback counter
 						"spyMelee"				"189 195 199 255"		// Spycicle
 						"spyMeleeBG"			"29 29 29 255"
+						// Disguise
+							// Status
+								"disguiseName"			"189 195 199 255"
+								"disguiseNameBG"		"0 0 0 100"
+								"disguiseWeapon"		"189 195 199 255"
+								"disguiseWeaponBG"	"0 0 0 100"
 
 			// Menu colors
 				// Main Menu
@@ -254,7 +286,7 @@ Scheme
 				// General colors
 					"newBlack"			"29 29 29 255"
 					"newWhite"			"189 195 199 255"
-					"newBlackTrans"	"23 23 23 200"
+					"newBlackTrans"	"29 29 29 200"
 					"newWhiteTrans"	"189 195 199 200"
 			"dropshadows"	"0 0 0 125"
 			"borderColor"	"255 255 255 75"
@@ -2929,6 +2961,17 @@ Scheme
 			}
 		}
 
+		"eraser"
+		{
+			"1"
+			{
+				"name"	"ErasedFont"
+				"tall"	"13"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+
 	}
 
 	//
@@ -3835,6 +3878,39 @@ Scheme
 				"10"
 				{
 					"color"	"otherBorder"
+					"offset"	"0 0"
+				}
+			}
+		}
+
+		TournyStateBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"	"tournyStateBorder"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color"	"tournyStateBorder"
+					"offset"	"0 0"
+				}
+				"3"
+				{
+					"color"	"tournyStateBorder"
+					"offset"	"0 0"
+				}
+				"4"
+				{
+					"color"	"tournyStateBorder"
+					"offset"	"0 0"
+				}
+				"5"
+				{
+					"color"	"tournyStateBorder"
 					"offset"	"0 0"
 				}
 			}
@@ -5753,6 +5829,12 @@ Scheme
 		{
 			"font" "resource/fonts/icons.ttf"
 			"name" "BazHUD_icons"
+		}
+
+		"10"
+		{
+			"font"	"resource/fonts/eraser.ttf"
+			"name"	"ErasedFont"
 		}
 	}
 }

@@ -221,11 +221,11 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"110"
+		"ypos"		"r140"
 		"zpos"		"-1"
-		"wide"		"f0"
-		"tall"		"f0"
+		"wide"		"175"
+		"tall"		"30"
 	}
 
 	CMainTargetID
@@ -233,9 +233,9 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-125"
+		"xpos"		"0"
 		"ypos"		"c40"
-		"wide"	 	"250"
+		"wide"	 	"f0"
 		"tall"	 	"30"
 		"priority"	"40"
 
@@ -251,10 +251,10 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c0"
-		"ypos"		"c-50"
+		"xpos"		"0"
+		"ypos"		"0"
 		"wide"	 	"250"
-		"tall"	 	"30"
+		"tall"	 	"28"
 		"priority"	"40"
 
 		"x_offset" "20"
@@ -710,16 +710,14 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
+		"xpos" "r145"
+		"ypos" "0"
 		"wide" "145"
 		"tall" "400"
 
 		"item_wide"	"135"
 
-		"show_avatar"		"0"
+		"show_avatar"		"1"
 
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
@@ -727,9 +725,9 @@
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 
-		"show_voice_icon"	"1"
+		"show_voice_icon"	"0"
 		"icon_ypos"			"0"
-		"icon_xpos"			"15"
+		"icon_xpos"			"0"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 
@@ -1086,11 +1084,11 @@
 		"fieldName"				"HudTournament"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"5"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"400"
-		"tall"					"80"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	HudTournamentSetup
@@ -1098,10 +1096,10 @@
 		"fieldName"				"HudTournamentSetup"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos_override"					"c-100"
-		"ypos"					"-70"
-		"wide"					"180"
-		"tall"					"65"
+		"xpos"					"r300"
+		"ypos"					"r70"
+		"wide"					"0"
+		"tall"					"55"
 	}
 
 	HudStopWatch
