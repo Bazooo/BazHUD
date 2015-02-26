@@ -51,6 +51,16 @@
 		"labelText"		""
 		"image"			"../hud/cart_track"
 		"scaleImage"	"1"
+
+		"if_multiple_trains"
+		{
+			"tall"		"5"
+		}
+
+		"if_multiple_trains_bottom"
+		{
+			"ypos"		"10"
+		}
 	}
 
 	"ProgressBar"
@@ -72,10 +82,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"
 		"xpos"			"65"
-		"ypos"			"6"
+		"ypos"			"4"
 		"zpos"			"1"
-		"wide"			"9"
-		"tall"			"9"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -232,19 +242,12 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
-			}
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"0"
+				"tall"			"5"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"0"
+				"ypos"			"10"
 			}
 
 			"if_team_red"

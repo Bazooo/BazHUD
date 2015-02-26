@@ -86,6 +86,12 @@ event MenuOpen
 
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
+	
+	Animate ArenaWinpanel	Position	"0 r30"	Linear 0.0 0.1
+	Animate ArenaWinpanel	Position	"0 0"	Linear 10.0 0.1
+
+	Animate Winpanel	Position	"0 r30"	Linear 0.0 0.1
+	Animate Winpanel	Position	"0 0"	Linear 10.0 0.1
 }
 
 event MenuClose
@@ -96,6 +102,9 @@ event MenuClose
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+
+	Animate ArenaWinpanel	Position	"0 0"	Linear 0.0 0.1
+	Animate Winpanel	Position	"0 0"	Linear 0.0 0.1
 }
 
 event MenuPulse
@@ -413,13 +422,11 @@ event HudReplayTipOut
 
 event HudTournamentSetupPanelOpen
 {
-	//Animate HudTournamentSetup	Size	"0 55"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Size	"300 55"	Spline 0.001 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	//Animate HudTournamentSetup	Size	"300 55"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Size	"0 55"	Spline 0.001 0.2
 }
 
@@ -451,9 +458,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	//StopEvent HudMedicChargedLoop 0.0
 
-	Animate 	ChargeLabel					Position	"105 0"				Linear 0.0 0.2
-	Animate 	ChargeLabel					FgColor		"uberPercentage"	Linear 0.0 0.2
-	Animate 	ChargeLabel					BgColor	"uberIdleBG"		Linear 0.2 0.0
+	Animate 	ChargeLabel						Position	"105 0"				Linear 0.0 0.2
+	Animate 	ChargeLabel						FgColor		"uberPercentage"	Linear 0.0 0.2
+	Animate 	ChargeLabel						BgColor	"uberIdleBG"		Linear 0.2 0.0
 	Animate 	IndividualChargesLabel			Position	"140 0"				Linear 0.0 0.2
 	Animate 	IndividualChargesLabel			FgColor		"uberPercentage"	Linear 0.0 0.2
 	Animate 	IndividualChargesLabel			BgColor	"uberIdleBG"		Linear 0.2 0.0
