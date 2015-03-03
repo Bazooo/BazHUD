@@ -320,19 +320,23 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-200"
-		"ypos"			"57"
+		"xpos"			"5"
+		"ypos"			"c-28"
 		"zpos"			"2"
-		"wide"			"400"
-		"tall"			"30"
+		"wide"			"285"
+		"tall"			"28"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"textinsetx"		"20"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NewFontSmall"
-		"fgcolor_override"		"MainWhite"
+		"font"					"NewFontMedium"
+		"fgcolor_override"		"respawnText"
+		"bgcolor_override"		"respawnBG"
+		"auto_wide_tocontents"	"1"
+		"border"				"NoBorder"
 		
 		if_mvm
 		{
@@ -424,8 +428,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r268"
-		"ypos"			"c5"
+		"xpos"			"5"
+		"ypos"			"c2"
 		"zpos"			"1"
 		"wide"			"265"
 		"tall"			"180"
@@ -433,21 +437,21 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"PaintBorder"				"0"
-		
+
 		"model_xpos"		"10"
 		"model_center_y"	"1"
 		"model_wide"		"90"
 		"model_tall"		"55"
-		
+
 		"text_xpos"		"90"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"90"
 		"padding_height"	"40"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -461,7 +465,7 @@
 			"fieldName" "ItemBackground"
 			"xpos" "0"
 			"ypos" "0"
-			"zpos" "-99"
+			"zpos" "1"
 			"wide" "260"
 			"tall" "900"
 			"autoResize" "0"
@@ -470,9 +474,9 @@
 			"enabled" "1"
 			"fillcolor" "mainBlack"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"NewFontTiny"

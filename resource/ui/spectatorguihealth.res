@@ -1,5 +1,6 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -11,8 +12,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +26,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +40,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,37 +54,40 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"75"
-		"ypos"			"32"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
 		"textAlignment"	"center"
-		"font"			"NewCounterFontMedium"
+		"font"			"NewFontMedium"
 	}
 	"HealthValueSpec"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HealthValueSpec"
-		"xpos"				"-5"
-		"ypos"				"-5"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"40"
-		"tall"				"40"
+		"wide"				"49"
+		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
+		"textinsetx"		"20"
+		"auto_wide_tocontents"	"1"
 		"labeltext"			"%Health%"
 		"textAlignment"	"center"
-		"font"				"NewCounterFontMedium"
-		"fgcolor"			"mainWhite"
+		"font"				"NewFontMedium"
+		"fgcolor"			"targetIDHealth"
+		"bgcolor_override"		"targetIDHealthBG"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -97,8 +101,8 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
-	}							
+	}
 }

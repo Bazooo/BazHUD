@@ -59,21 +59,23 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"0"
-		"ypos"			"r110"
+		"xpos"			"5"
+		"ypos"			"c-28"
 		"zpos"			"2"
 		"wide"			"285"
-		"tall"			"60"
+		"tall"			"28"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"		"50"
+		"textinsetx"		"20"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"font"					"NewFontMedium"
 		"fgcolor_override"		"respawnText"
-		"border"				"respawnBorder"
+		"bgcolor_override"		"respawnBG"
+		"auto_wide_tocontents"	"1"
+		"border"				"NoBorder"
 	}
 	"BuyBackLabel"
 	{
@@ -121,7 +123,7 @@
 		"xpos_lodef"	"40"
 		"ypos"			"68"
 		"ypos_hidef"	"90"
-		"ypos_lodef"	"30"	
+		"ypos_lodef"	"30"
 		"wide"			"170"
 		"wide_hidef"	"130"
 		"wide_lodef"	"220"
@@ -156,7 +158,7 @@
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -165,7 +167,7 @@
 		"xpos"			"5"
 		"ypos"			"10"
 		"wide"			"0"
-		"tall"			"0"	
+		"tall"			"0"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -216,7 +218,7 @@
 		"xpos"			"5"
 		"ypos"			"10"
 		"wide"			"0"
-		"tall"			"0"	
+		"tall"			"0"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -276,8 +278,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r268"
-		"ypos"			"c5"
+		"xpos"			"5"
+		"ypos"			"c2"
 		"zpos"			"1"
 		"wide"			"265"
 		"tall"			"180"
@@ -285,21 +287,21 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"PaintBorder"				"0"
-		
+
 		"model_xpos"		"10"
 		"model_center_y"	"1"
 		"model_wide"		"90"
 		"model_tall"		"55"
-		
+
 		"text_xpos"		"90"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"90"
 		"padding_height"	"40"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -322,9 +324,9 @@
 			"enabled" "1"
 			"fillcolor" "mainBlack"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"NewFontTiny"
@@ -343,5 +345,5 @@
 			"brighttext"	"0"
 			"fgcolor_override"		"mainWhite"
 		}
-	}	
+	}
 }

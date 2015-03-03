@@ -11,8 +11,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +39,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,8 +53,29 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
+
+	"HealthValueSpec"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"HealthValueSpec"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"43"
+		"visible"		"1"
+		"enabled"		"1"
+		"textinsetx"	"20"
+		"labeltext"		"%health%"
+		"font"			"NewFontBig"
+		"fgcolor_override"		"TargetIDHealth"
+		"bgcolor_override"		"TargetIDHealthBG"
+		"textAlignment"	"center"
+		"auto_wide_tocontents" "1"
+	}
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"Label"
@@ -62,13 +83,16 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"36"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
+		"textinsetx"	"20"
 		"labeltext"		"%health%"
-		"font"			"NewCounterFontMedium"
+		"font"			"NewFontBig"
 		"fgcolor_override"		"mainWhite"
-		"textAlignment"	"center"	
-	}						
+		"bgcolor_override"		"29 29 29 100"
+		"textAlignment"	"center"
+		"auto_wide_tocontents" "1"
+	}
 }
