@@ -1,4 +1,4 @@
-#base "put_overrides_here/quickcommands.res"
+#base "put_overrides_here/quickservers.res"
 
 "GameMenu"
 {
