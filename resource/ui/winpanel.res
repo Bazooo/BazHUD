@@ -768,7 +768,7 @@
 		"xpos"			"c75"
 		"ypos"			"c180"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"100"
 		"tall"			"20"
 		"labelText"		""
 		"textAlignment"		"center"

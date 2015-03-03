@@ -18,7 +18,7 @@ Scheme
 		// base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
-		"NewWhite"		"142 142 142 255"
+		"NewWhite"			"142 142 142 255"
 		"DullWhite"			"0 0 0 0"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
