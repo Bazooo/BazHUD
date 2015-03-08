@@ -45,6 +45,16 @@ event LevelInit
 {
 }
 
+event FirstStuff
+{
+	Animate Secondly Position "0 480" Linear 0.0 0.0
+}
+
+event secondStuff
+{
+	Animate Secondly Position "0 0" Linear 0.0 0.0
+}
+
 event OpenWeaponSelectionMenu
 {
 	StopEvent CloseWeaponSelectionMenu	0.0
